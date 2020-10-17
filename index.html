@@ -1,22 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title>Learn with Leon Bingo</title>
+<!--
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<header> <img src="img/microLeon.jpg" alt="Micro Leon"> Learn with Leon Bingo! <img src="img/microLeon.jpg" alt="Micro Leon"></header>
+   Author: gen cohen
+   Date:  11/10/18
+  Bingo
+   Temple University
+  24 words, here, you, go, it, it ,the, ones, you, watned, the, test, words, nevermind, that, doesnt, matter, anymore, to me, another, words, for, you, gotta, have, ebogy, anough, enough, to, fill, everything, the long one that messes everything up for every other one ha
 
-		<section></section>
 
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+-->
+<html>
+  <head>
+    <title>Make your own Bingo!</title>
+
+    <meta charset="UTF-8" />
+
+    <meta name="description" content="Make your own Bingo" />
+
+    <meta name="copywrite" content="2018, Gen Cohen" />
+    <meta
+      name="Kaywords"
+      content="Bingo, Rugby, Rugby Bingo, Make your own Bingo"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p>
+      <center><h1 id="headerAtTop">Make Your own Bingo!</h1></center>
+    </p>
+
+    <form>
+      Enter the values you want in your board seperated by commas:<br />
+      <textarea
+        rows="4"
+        cols="50"
+        id="wordsInBoard"
+        type="textArea"
+        name="wordsInBoard"
+      >
+      </textarea
+      ><br />
+
+      <input type="button" value="Create Board" onclick="createBoard()" />
+    </form>
+
+    <table id="bingoBoard" hidden>
+      <tbody>
+        <tr>
+          <th>B</th>
+          <th>I</th>
+          <th>N</th>
+          <th>G</th>
+          <th>O</th>
+        </tr>
+        <tr>
+          <td onClick="markOff(0)">
+            <div id="0" class="contentArea"></div>
+          </td>
+
+          <td onClick="markOff(1)">
+            <div id="1" class="contentArea"></div>
+          </td>
+
+          <td onClick="markOff(2)">
+            <div id="2" class="contentArea"></div>
+          </td>
+
+          <td onClick="markOff(3)">
+            <div id="3" class="contentArea"></div>
+          </td>
+
+          <td onClick="markOff(4)">
+            <div id="4" class="contentArea"></div>
+          </td>
+        </tr>
+        <tr>
+          <td onClick="markOff(5)">
+            <div id="5" class="contentArea"></div>
+          </td>
+
+          <td onClick="markOff(6)">
+            <div id="6" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(7)">
+            <div id="7" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(8)">
+            <div id="8" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(9)">
+            <div id="9" class="contentArea"></div>
+          </td>
+        </tr>
+        <tr>
+          <td onClick="markOff(10)">
+            <div id="10" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(11)">
+            <div id="11" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(12)">
+            <div id="12" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(13)">
+            <div id="13" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(14)">
+            <div id="14" class="contentArea"></div>
+          </td>
+        </tr>
+        <tr>
+          <td onClick="markOff(15)">
+            <div id="15" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(16)">
+            <div id="16" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(17)">
+            <div id="17" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(18)">
+            <div id="18" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(19)">
+            <div id="19" class="contentArea"></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td onClick="markOff(20)">
+            <div id="20" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(21)">
+            <div id="21" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(22)">
+            <div id="22" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(23)">
+            <div id="23" class="contentArea"></div>
+          </td>
+          <td onClick="markOff(24)">
+            <div id="24" class="contentArea"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="js/main.js"></script>
+  </body>
 </html>

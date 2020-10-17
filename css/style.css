@@ -1,46 +1,183 @@
-/* Box Model Hack */
+/* Default styles */
+
 * {
-  box-sizing: border-box;
+  margin: 0px;
+  list-style: none;
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+header,
+section,
+footer,
+nav {
+  display: block;
 }
-
-.clear {
-	clear: both;
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
 
 body {
+  background-color: rgb(255, 255, 255);
 
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0px auto; /*top and bottom margins 0, left and right auto centeres*/
+  width: 1000px;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(255, 0, 0);
 }
 
+table,
+th,
+td {
+  border: 1px solid black;
+}
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-header {
+table {
+  margin-left: 100px;
+}
+td {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  text-align: center;
+}
+.contentArea {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+}
+td:after {
+  content: "";
+  display: block;
+}
+td .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 
+  text-align: center;
+}
+
+body header h1 img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 1em;
+  font-family: Courier New, monospace;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+body section {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+body section article p {
+  line-height: 2.4em;
+  padding: 10px;
+  text-indent: 50px;
+}
+
+article img p {
+  margin: 4px 10px 0px 0px;
+  border: 1px solid #000000;
+  float: left;
+}
+
+body section article h2 {
+  font-size: 3em;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+hr {
+  border-color: rgb(255, 0, 0);
+}
+h3 {
+  font-size: 2em;
+  color: rgb(255, 0, 0);
+}
+
+article ul {
+  list-style-type: square;
+  color: rgb(255, 255, 255);
+  line-height: 2.4em;
+}
+
+article ul li {
+  color: rgb(255, 255, 255);
+  list-style-type: square;
+  line-height: 2.4em;
+}
+footer p a {
+  color: rgb(0, 0, 0);
+}
+
+footer a:hover {
+  color: rgb(255, 255, 255);
 }
 
 footer {
-
+  clear: rgb(0, 0, 0);
+  padding-top: 10px;
+  background-color: rgb(255, 0, 0);
+}
+footer p {
+  text-align: center;
 }
 
-section {
-  display: grid;
-  
+footer nav ul {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+
+footer nav ul li {
+  display: inline;
+  font-size: 1em;
+  font-family: Courier New, monospace;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+footer nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
