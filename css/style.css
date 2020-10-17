@@ -13,13 +13,28 @@ nav {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(51, 49, 49);
 
   font-family: Verdana, Geneva, sans-serif;
   margin: 0px auto; /*top and bottom margins 0, left and right auto centeres*/
   width: 1000px;
   color: rgb(0, 0, 0);
-  border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+input {
+  text-align: center;
+  padding: 30px;
+  border: 25px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  border: 3px solid rgb(132, 200, 240);
+  background-color: rgb(63, 62, 62);
+  color: rgb(132, 200, 240);
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 table,
@@ -65,6 +80,11 @@ body header h1 img.center {
 }
 header h1 {
   text-align: center;
+  color: rgb(132, 200, 240);
+  text-decoration: wavy;
+  text-shadow: 2px 2px rgb(235, 235, 235);
+  font-size: 60px;
+  margin-bottom: 30px;
 }
 
 nav ul {
