@@ -3,12 +3,9 @@
   <head>
     <title>Make your own Bingo!</title>
 
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
 
     <meta name="description" content="Learn with Leon Bingo" />
-
-    <meta name="copywrite" content="2018, Gen Cohen" />
-    <meta name="Keywords" content="Bingo, Learn with Leon, coding, bootcamp" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -16,9 +13,7 @@
       <h1 id="headerAtTop">Learn With Leon Bingo!</h1>
     </header>
 
-    <form>
-      <input type="button" value="Create Board" onclick="createBoard()" />
-    </form>
+    <button type="button" onclick="createBoard()">Create Board</button>
 
     <table id="bingoBoard" hidden>
       <tbody>
@@ -75,7 +70,7 @@
           <td onClick="markOff(11)">
             <div id="11" class="contentArea"></div>
           </td>
-          <td class="stamp" onClick="markOff(12)">
+          <td class="stamp">
             <div id="12" class="contentArea"></div>
           </td>
           <td onClick="markOff(13)">

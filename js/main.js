@@ -1,9 +1,9 @@
-let bingoWords = [
+let bingoPhrases = [
   "Someone compliments Leon's hair",
   'Someone preemptively types "organization" in the chat',
   "Someone emotes a Micro Leon in chat",
   "Leon says octothorpe",
-  'Leon says "automagically"',
+  "Leon says ✨automagically✨",
   '"A variable is a bucket"',
   "Leon forgets to turn off the background music",
   "Someone finishes a challenge before the timer goes off",
@@ -18,17 +18,17 @@ let bingoWords = [
   "Don't call yourself a junior dev",
   "one job please!",
   "stretch!",
-  "community goal met",
+  "community goal met 🎉",
   "Bob is mentioned",
   "Someone asks Leon which programming languages he uses",
-  "Dylan spits hot fire",
+  "Dylan spits hot fire 🔥🔥",
   "The Bachelor",
-  "Bring it on",
+  "Bring It On",
   "The nuns!"
 ];
 
 function createBoard() {
-  let boardWords = [
+  let boardSpaces = [
     "B1",
     "I1",
     "N1",
@@ -56,27 +56,30 @@ function createBoard() {
     "O5"
   ];
 
-  // pick random ones to put in the final board list
-  let i;
-  for (i = 0; i < boardWords.length; i++) {
+  for (let i = 0; i < boardSpaces.length; i++) {
     if (i != 12) {
-      let randomNum = Math.floor(Math.random() * bingoWords.length + 0);
+      let randomNum = Math.floor(Math.random() * bingoPhrases.length + 0);
 
-      boardWords[i] = bingoWords[randomNum];
-    } //end if not 12
-  } //end for
+      let randomPhrase = bingoPhrases[randomNum];
 
-  //put the array into the bingo board
-  let j;
-  for (j = 0; j < 25; j++) {
-    document.getElementById(j).innerHTML = boardWords[j];
+      console.log(randomPhrase, i);
+
+      if (boardSpaces.indexOf(randomPhrase) < 0) {
+        boardSpaces[i] = randomPhrase;
+      } else {
+        i--;
+      }
+    }
   }
-  //document.getElementById("testP").innerHTML = boardWords[0];
+
+  for (let j = 0; j < 25; j++) {
+    document.getElementById(j).innerHTML = boardSpaces[j];
+  }
   document.getElementById("bingoBoard").hidden = false;
 
-  document.querySelector("input").remove();
-} //end function create board
+  document.querySelector("button").remove();
+}
 
 function markOff(spaceID) {
   document.getElementById(spaceID).parentNode.classList.toggle("stamp");
-} //end mark off function
+}

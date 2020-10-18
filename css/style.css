@@ -1,5 +1,3 @@
-/* Default styles */
-
 * {
   margin: 0px;
   list-style: none;
@@ -21,12 +19,12 @@ body {
     rgb(32, 58, 78)
   );
   font-family: Verdana, Geneva, sans-serif;
-  margin: 0px auto; /*top and bottom margins 0, left and right auto centeres*/
+  margin: 0px auto;
   width: 1000px;
   color: rgb(0, 0, 0);
 }
 
-input {
+button {
   text-align: center;
   padding: 30px;
   width: auto;
@@ -41,6 +39,13 @@ input {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 300px;
   margin-bottom: 450px;
+  transition: 0.4s;
+  opacity: 0.6;
+}
+
+button:hover {
+  transform: scale(1.3);
+  opacity: 1;
 }
 
 table,
@@ -51,6 +56,7 @@ td {
 
 table {
   margin-left: 100px;
+  margin-bottom: 30px;
 }
 td {
   width: 150px;
@@ -73,17 +79,20 @@ td::after {
 
 .stamp {
   animation-name: stamp;
-  animation-duration: 1.5s;
+  animation-duration: 0.3s;
   animation-fill-mode: forwards;
-  animation-timing-function: linear;
+  animation-timing-function: ease-out;
+
+  background: url("../img/logo.png");
+  background-size: cover;
 }
 
 @keyframes stamp {
   0% {
+    opacity: 0;
   }
   100% {
-    background: url("../img/logo.png");
-    background-size: cover;
+    opacity: 1;
   }
 }
 
