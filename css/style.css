@@ -13,8 +13,13 @@ nav {
 }
 
 body {
-  background-color: rgb(51, 49, 49);
-
+  background-image: linear-gradient(
+    60deg,
+    rgba(200, 224, 243, 0.8),
+    rgb(154, 200, 241),
+    rgb(47, 89, 126),
+    rgb(32, 58, 78)
+  );
   font-family: Verdana, Geneva, sans-serif;
   margin: 0px auto; /*top and bottom margins 0, left and right auto centeres*/
   width: 1000px;
@@ -24,17 +29,17 @@ body {
 input {
   text-align: center;
   padding: 30px;
-  border: 25px;
-  width: 200px;
+  width: auto;
   margin: 0 auto;
   display: block;
-  justify-content: center;
-  border: 3px solid rgb(132, 200, 240);
-  background-color: rgb(63, 62, 62);
-  color: rgb(132, 200, 240);
+  border: 5px solid rgb(211, 226, 241);
+  background-color: rgb(11, 61, 92);
+  color: rgb(211, 226, 241);
   border-radius: 15px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 25px;
 }
 
 table,
@@ -80,9 +85,9 @@ body header h1 img.center {
 }
 header h1 {
   text-align: center;
-  color: rgb(132, 200, 240);
+  color: rgb(211, 226, 241);
   text-decoration: wavy;
-  text-shadow: 2px 2px rgb(235, 235, 235);
+  text-shadow: 2px 2px rgb(60, 61, 63);
   font-size: 60px;
   margin-bottom: 30px;
 }
@@ -168,8 +173,7 @@ footer a:hover {
 
 footer {
   clear: rgb(0, 0, 0);
-  padding-top: 10px;
-  background-color: rgb(255, 0, 0);
+  padding-top: 700px;
 }
 footer p {
   text-align: center;
