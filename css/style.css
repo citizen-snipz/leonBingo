@@ -112,11 +112,6 @@ td .content {
   text-align: center;
 }
 
-body header h1 img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 header h1 {
   text-align: center;
   color: rgb(211, 226, 241);
@@ -127,119 +122,12 @@ header h1 {
   margin-bottom: 30px;
 }
 
-nav ul {
-  background-color: rgb(0, 0, 0);
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-
-nav ul li {
-  display: inline;
-  font-size: 1em;
-  font-family: Courier New, monospace;
-  margin: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: rgb(255, 0, 0);
-}
-
-nav ul li a:hover {
-  color: rgb(255, 255, 255);
-}
-
 body section {
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
-
-body section article p {
-  line-height: 2.4em;
-  padding: 10px;
-  text-indent: 50px;
-}
-
-article img p {
-  margin: 4px 10px 0px 0px;
-  border: 1px solid #000000;
-  float: left;
-}
-
-body section article h2 {
-  font-size: 3em;
-  color: rgb(255, 0, 0);
-  text-align: center;
-}
-
-hr {
-  border-color: rgb(255, 0, 0);
-}
-h3 {
-  font-size: 2em;
-  color: rgb(255, 0, 0);
-}
-
-article ul {
-  list-style-type: square;
-  color: rgb(255, 255, 255);
-  line-height: 2.4em;
-}
-
-article ul li {
-  color: rgb(255, 255, 255);
-  list-style-type: square;
-  line-height: 2.4em;
-}
-/* footer p a {
-  color: rgb(0, 0, 0);
-}
-
-footer a:hover {
-  color: rgb(255, 255, 255);
-}
-
-footer {
-  clear: rgb(0, 0, 0);
-  padding-top: 700px;
-}
-footer p {
-  text-align: center;
-}
-
-footer nav ul {
-  background-color: rgb(0, 0, 0);
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-
-footer nav ul li {
-  display: inline;
-  font-size: 1em;
-  font-family: Courier New, monospace;
-  margin: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-footer nav ul li a {
-  text-decoration: none;
-  color: rgb(255, 0, 0);
-}
-
-footer nav ul li a:hover {
-  color: rgb(255, 255, 255);
-} */
 
 .backgroundImage {
   opacity: 0.5;
