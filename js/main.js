@@ -27,35 +27,50 @@ let bingoPhrases = [
   "The nuns!"
 ];
 
-function createBoard() {
-  let boardSpaces = [
-    "B1",
-    "I1",
-    "N1",
-    "G1",
-    "O1",
-    "B2",
-    "I2",
-    "N2",
-    "G2",
-    "O2",
-    "B3",
-    "I3",
-    "",
-    "G3",
-    "O3",
-    "B4",
-    "I4",
-    "N4",
-    "G4",
-    "O4",
-    "B5",
-    "I5",
-    "N5",
-    "G5",
-    "O5"
-  ];
+let winningCombos = [
+  ["0", "1", "2", "3", "4"],
+  ["5", "6", "7", "8", "9"],
+  ["10", "11", "12", "13", "14"],
+  ["15", "16", "17", "18", "19"],
+  ["20", "21", "22", "23", "24"],
+  ["0", "5", "10", "15", "20"],
+  ["1", "6", "11", "16", "21"],
+  ["2", "7", "12", "17", "22"],
+  ["3", "8", "13", "18", "23"],
+  ["4", "9", "14", "19", "24"],
+  ["0", "6", "12", "18", "24"],
+  ["4", "8", "12", "16", "20"]
+];
 
+let boardSpaces = [
+  "B1",
+  "I1",
+  "N1",
+  "G1",
+  "O1",
+  "B2",
+  "I2",
+  "N2",
+  "G2",
+  "O2",
+  "B3",
+  "I3",
+  "",
+  "G3",
+  "O3",
+  "B4",
+  "I4",
+  "N4",
+  "G4",
+  "O4",
+  "B5",
+  "I5",
+  "N5",
+  "G5",
+  "O5"
+];
+
+function createBoard() {
   for (let i = 0; i < boardSpaces.length; i++) {
     if (i != 12) {
       let randomNum = Math.floor(Math.random() * bingoPhrases.length + 0);
@@ -82,4 +97,22 @@ function createBoard() {
 
 function markOff(spaceID) {
   document.getElementById(spaceID).parentNode.classList.toggle("stamp");
+
+  winningCondition();
+}
+
+function winningCondition() {
+  winningCombos.forEach((combo) => {
+    let count = 0;
+    combo.forEach((squareID) => {
+      let stampCheck = document.getElementById(squareID).parentNode;
+
+      if (stampCheck.className === "stamp") {
+        count++;
+      }
+    });
+    if (count === 5) {
+      document.getElementById("bingoBoard").hidden = true;
+    }
+  });
 }
