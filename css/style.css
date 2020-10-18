@@ -37,12 +37,45 @@ td {
   position: relative;
   text-align: center;
 }
+
+td::after {
+  content: "";
+  background: white;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.stamp {
+  animation-name: stamp;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes stamp {
+  0% {
+  }
+  100% {
+    background: url("../img/logo.png");
+    background-size: cover;
+  }
+}
+
+td div {
+  background-color: rgba(255, 255, 255, 0);
+}
 .contentArea {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 150px;
+  z-index: 2;
 }
 td:after {
   content: "";
@@ -180,4 +213,10 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
   color: rgb(255, 255, 255);
+}
+
+.backgroundImage {
+  opacity: 0.5;
+  width: 110px;
+  height: 110px;
 }

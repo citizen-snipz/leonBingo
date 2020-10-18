@@ -29,13 +29,13 @@ let bingoWords = [
 
 function createBoard() {
   //set all the squares back to white
-  var w;
+  let w;
   for (w = 0; w < 25; w++) {
-    document.getElementById(w).style.backgroundColor = "white";
-    document.getElementById(w).parentNode.style.backgroundColor = "white";
+    // document.getElementById(w).style.backgroundColor = "white";
+    // document.getElementById(w).parentNode.style.backgroundColor = "white";
   } //end for w
 
-  var boardWords = [
+  let boardWords = [
     "B1",
     "I1",
     "N1",
@@ -64,17 +64,17 @@ function createBoard() {
   ];
 
   // pick random ones to put in the final board list
-  var i;
+  let i;
   for (i = 0; i < boardWords.length; i++) {
     if (i != 12) {
-      var randomNum = Math.floor(Math.random() * bingoWords.length + 0);
+      let randomNum = Math.floor(Math.random() * bingoWords.length + 0);
 
       boardWords[i] = bingoWords[randomNum];
     } //end if not 12
   } //end for
 
   //put the array into the bingo board
-  var j;
+  let j;
   for (j = 0; j < 25; j++) {
     document.getElementById(j).innerHTML = boardWords[j];
   }
@@ -83,6 +83,5 @@ function createBoard() {
 } //end function create board
 
 function markOff(spaceID) {
-  document.getElementById(spaceID).parentNode.style.backgroundColor = "yellow";
-  document.getElementById(spaceID).style.backgroundColor = "yellow";
+  document.getElementById(spaceID).parentNode.classList.toggle("stamp");
 } //end mark off function
