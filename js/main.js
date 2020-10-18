@@ -48,7 +48,7 @@ function createBoard() {
     "O2",
     "B3",
     "I3",
-    "Free Space",
+    "",
     "G3",
     "O3",
     "B4",
