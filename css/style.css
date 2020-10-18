@@ -39,7 +39,8 @@ input {
   font-size: 30px;
   font-weight: 600;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  margin-bottom: 25px;
+  margin-top: 300px;
+  margin-bottom: 450px;
 }
 
 table,
@@ -122,6 +123,7 @@ header h1 {
   text-decoration: wavy;
   text-shadow: 2px 2px rgb(60, 61, 63);
   font-size: 60px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -196,7 +198,7 @@ article ul li {
   list-style-type: square;
   line-height: 2.4em;
 }
-footer p a {
+/* footer p a {
   color: rgb(0, 0, 0);
 }
 
@@ -237,7 +239,7 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
   color: rgb(255, 255, 255);
-}
+} */
 
 .backgroundImage {
   opacity: 0.5;

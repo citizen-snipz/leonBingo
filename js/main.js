@@ -28,13 +28,6 @@ let bingoWords = [
 ];
 
 function createBoard() {
-  //set all the squares back to white
-  let w;
-  for (w = 0; w < 25; w++) {
-    // document.getElementById(w).style.backgroundColor = "white";
-    // document.getElementById(w).parentNode.style.backgroundColor = "white";
-  } //end for w
-
   let boardWords = [
     "B1",
     "I1",
@@ -80,6 +73,8 @@ function createBoard() {
   }
   //document.getElementById("testP").innerHTML = boardWords[0];
   document.getElementById("bingoBoard").hidden = false;
+
+  document.querySelector("input").remove();
 } //end function create board
 
 function markOff(spaceID) {
