@@ -21,7 +21,9 @@ body {
   font-family: Verdana, Geneva, sans-serif;
   margin: 0px auto;
   width: 1000px;
-  color: rgb(0, 0, 0);
+  color: rgb(230, 230, 238);
+  text-shadow: 1px 1px 8px rgb(19, 19, 71);
+  font-weight: 550;
 }
 
 button {
@@ -51,7 +53,8 @@ button:hover {
 table,
 th,
 td {
-  border: 1px solid black;
+  border: 1px outset black;
+  box-shadow: 2px 2px rgb(60, 61, 63), -1px -1px rgb(60, 61, 63);
 }
 
 table {
@@ -63,42 +66,45 @@ td {
   height: 150px;
   position: relative;
   text-align: center;
+  background-color: lightblue;
 }
 
-td::after {
+/* I had used this to create a kind of layer of
+opacity in front of my background image, but have 
+changed the way I achieved that. Neat trick though. */
+
+/* td::after {
   content: "";
-  background: white;
-  opacity: 0.5;
+  background-color: white;
+  opacity: .6;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
   z-index: 1;
-}
+} */
 
 .stamp {
   animation-name: stamp;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-
+  animation-timing-function: ease-in;
   background: url("../img/logo.png");
+  background-color: lightblue;
   background-size: cover;
 }
 
 @keyframes stamp {
   0% {
     opacity: 0;
+    transform: scale(5);
   }
   100% {
-    opacity: 1;
+    opacity: 0.6;
   }
 }
 
-td div {
-  background-color: rgba(255, 255, 255, 0);
-}
 .contentArea {
   position: absolute;
   top: 50%;

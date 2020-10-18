@@ -3,7 +3,7 @@ let bingoPhrases = [
   'Someone preemptively types "organization" in the chat',
   "Someone emotes a Micro Leon in chat",
   "Leon says octothorpe",
-  "Leon says ✨automagically✨",
+  "Leon says 'automagically' ✨✨✨✨",
   '"A variable is a bucket"',
   "Leon forgets to turn off the background music",
   "Someone finishes a challenge before the timer goes off",
