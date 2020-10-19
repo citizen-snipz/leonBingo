@@ -1,3 +1,5 @@
+let tds = document.querySelectorAll("td");
+
 let bingoPhrases = [
   "Someone compliments Leon's hair",
   'Someone preemptively types "organization" in the chat',
@@ -88,8 +90,8 @@ function createBoard() {
     }
   }
 
-  for (let j = 0; j < 25; j++) {
-    document.getElementById(j).innerHTML = boardSpaces[j];
+  for (let i = 0; i < 25; i++) {
+    tds[i].innerHTML = boardSpaces[i];
   }
   document.getElementById("bingoBoard").hidden = false;
 
@@ -97,7 +99,7 @@ function createBoard() {
 }
 
 function markOff(spaceID) {
-  document.getElementById(spaceID).parentNode.classList.toggle("stamp");
+  tds[spaceID].classList.toggle("stamp");
 
   winningCondition();
 }
@@ -106,14 +108,20 @@ function winningCondition() {
   winningCombos.forEach((combo) => {
     let count = 0;
     combo.forEach((squareID) => {
-      let stampCheck = document.getElementById(squareID).parentNode;
+      let stampCheck = tds[squareID];
 
       if (stampCheck.className === "stamp") {
         count++;
       }
     });
     if (count === 5) {
-      document.getElementById("bingoBoard").hidden = true;
+      let freeSpace = document.getElementById("freeSpace");
+      freeSpace.className = "victory";
+      freeSpace.innerHTML = `
+      \n
+      \n
+      CONGRATS!
+      🎉🎉🎉`;
     }
   });
 }

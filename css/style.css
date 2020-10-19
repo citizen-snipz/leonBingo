@@ -44,8 +44,9 @@ button:hover {
 }
 
 table {
-  margin-left: 100px;
-  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
 }
 td {
   border: 1px outset black;
@@ -55,6 +56,10 @@ td {
   position: relative;
   text-align: center;
   background-color: lightblue;
+}
+td:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 /* I had used this to create a kind of layer of
@@ -93,17 +98,28 @@ changed the way I achieved that. Neat trick though. */
   }
 }
 
-.finisher {
+.victory {
   background: url("../img/logo.png");
   background-color: lightblue;
   background-size: cover;
+  opacity: 0.6;
 
-  animation-name: gameOver;
+  animation-name: winner;
   animation-duration: 0.8s;
   animation-fill-mode: forwards;
 }
 
-@keyframes gameOver {
+@keyframes winner {
+  0% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(5.5);
+    opacity: 1;
+    z-index: 2;
+    box-shadow: none;
+    white-space: pre-line;
+  }
 }
 
 .contentArea {
@@ -112,8 +128,9 @@ changed the way I achieved that. Neat trick though. */
   left: 50%;
   transform: translate(-50%, -50%);
   width: 150px;
-  z-index: 2;
+  z-index: 1;
 }
+
 td:after {
   content: "";
   display: block;
