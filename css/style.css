@@ -96,7 +96,7 @@ td:hover {
 @keyframes stamp {
   0% {
     opacity: 0;
-    transform: scale(5);
+    transform: scale(4);
   }
   100% {
     opacity: 0.6;

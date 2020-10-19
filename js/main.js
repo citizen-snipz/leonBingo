@@ -12,7 +12,7 @@ const phraseBank = [
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   "Someone emotes a Micro Leon in chat",
   "Leon says octothorpe",
-  "Leon says 'automagically' ✨✨✨✨",
+  "Leon says 'automagically' \r✨✨✨✨",
   '"A variable is a bucket"',
   "Leon forgets to turn off the background music 🎶",
   "Three people finish a challenge before the timer goes off ⏲️",
@@ -104,7 +104,7 @@ function winningCondition() {
       freeSpace.innerHTML = `
       \n
       \n
-      CONGRATS!
+      CONGRATS!\r
       🎉🎉🎉`;
     }
   });
