@@ -4,6 +4,8 @@ const tds = document.querySelectorAll("td");
 const table = document.querySelector("tbody");
 const bingoBoard = document.getElementById("bingoBoard");
 const createBoardButton = document.getElementById("createBoard");
+const mainSection = document.getElementById("main");
+let freeSpace = document.getElementById("freeSpace");
 
 const phraseDatabase = [
   "Someone compliments Leon's hair",
@@ -97,7 +99,6 @@ function winningCondition() {
       }
     });
     if (count === 5) {
-      let freeSpace = document.getElementById("freeSpace");
       freeSpace.className = "victory";
       freeSpace.innerHTML = `
       \n
@@ -111,7 +112,7 @@ function winningCondition() {
 // Event Listeners
 
 table.addEventListener("click", (event) => {
-  if (event.target.tagName == "TD") {
+  if (event.target.tagName == "TD" && event.target != freeSpace) {
     event.target.classList.toggle("stamp");
   }
 
