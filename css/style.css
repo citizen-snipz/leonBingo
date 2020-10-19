@@ -10,11 +10,12 @@ body {
     rgb(115, 182, 211),
     rgb(53, 145, 165),
     rgb(8, 126, 110),
-    rgb(47, 89, 126),
+    rgb(55, 92, 125),
     rgb(30, 89, 133),
-    rgba(48, 76, 99, 0.8),
+    rgba(48, 76, 99, 0.9),
+    rgba(70, 103, 129),
     rgb(51, 129, 162),
-    rgb(53, 145, 165),
+    rgb(49, 127, 145),
     rgb(8, 126, 110),
     rgb(47, 89, 126),
     rgb(32, 58, 78)
@@ -52,12 +53,11 @@ button:hover {
 }
 
 footer {
-  position: fixed;
-  left: 15px;
   bottom: 25px;
   width: 100%;
   line-height: 20px;
   text-shadow: 3px 3px 12px navy;
+  text-align: center;
 }
 
 table {
