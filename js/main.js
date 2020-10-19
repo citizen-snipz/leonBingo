@@ -1,6 +1,11 @@
-let tds = document.querySelectorAll("td");
+// Variable Declarations
 
-let bingoPhrases = [
+const tds = document.querySelectorAll("td");
+const table = document.querySelector("tbody");
+const bingoBoard = document.getElementById("bingoBoard");
+const createBoardButton = document.getElementById("createBoard");
+
+const phraseDatabase = [
   "Someone compliments Leon's hair",
   'Someone preemptively types "organization" in the chat',
   "Someone emotes a Micro Leon in chat",
@@ -19,7 +24,7 @@ let bingoPhrases = [
   "binary upload boom 👽",
   "Don't call yourself a junior dev",
   "one job please! 💸",
-  "stretch!",
+  "STRETCH!",
   "community goal met 🎉",
   "Bob is mentioned",
   "Someone asks Leon which programming languages he uses",
@@ -30,7 +35,7 @@ let bingoPhrases = [
   "Domino's 🍕"
 ];
 
-let winningCombos = [
+const winningCombos = [
   ["0", "1", "2", "3", "4"],
   ["5", "6", "7", "8", "9"],
   ["10", "11", "12", "13", "14"],
@@ -45,63 +50,40 @@ let winningCombos = [
   ["4", "8", "12", "16", "20"]
 ];
 
-let boardSpaces = [
-  "B1",
-  "I1",
-  "N1",
-  "G1",
-  "O1",
-  "B2",
-  "I2",
-  "N2",
-  "G2",
-  "O2",
-  "B3",
-  "I3",
-  "",
-  "G3",
-  "O3",
-  "B4",
-  "I4",
-  "N4",
-  "G4",
-  "O4",
-  "B5",
-  "I5",
-  "N5",
-  "G5",
-  "O5"
-];
+const boardPhrases = [];
+
+// Function Declarations
 
 function createBoard() {
-  for (let i = 0; i < boardSpaces.length; i++) {
-    if (i != 12) {
-      let randomNum = Math.floor(Math.random() * bingoPhrases.length + 0);
+  for (let i = 0; i < 25; i++) {
+    // index 12 is my free space, which I want to keep clear of phrases
+    if (i === 12) {
+      boardPhrases.push("");
+    } else {
+      let randomNum = Math.floor(Math.random() * phraseDatabase.length);
 
-      let randomPhrase = bingoPhrases[randomNum];
+      let randomPhrase = phraseDatabase[randomNum];
 
-      // console.log(randomPhrase, i);  uncomment this if you want to see how the logic makes sure there are no repeats
+      /* console.log(randomPhrase, i);  <-- uncomment 
+      and then check the console if you want to see 
+      how the logic makes sure there are no repeats */
 
-      if (boardSpaces.indexOf(randomPhrase) < 0) {
-        boardSpaces[i] = randomPhrase;
+      if (boardPhrases.indexOf(randomPhrase) < 0) {
+        boardPhrases.push(randomPhrase);
       } else {
+        /* i is subtracted here when a repeat is found. Since i will get a ++ to my index at the end of the current iteration, it evens out and makes the loop repeat the same value of i until it finds a phrase that hasn't been used yet. */
+
         i--;
       }
     }
   }
 
   for (let i = 0; i < 25; i++) {
-    tds[i].innerHTML = boardSpaces[i];
+    tds[i].innerHTML = boardPhrases[i];
   }
-  document.getElementById("bingoBoard").hidden = false;
+  bingoBoard.hidden = false;
 
-  document.querySelector("button").remove();
-}
-
-function markOff(spaceID) {
-  tds[spaceID].classList.toggle("stamp");
-
-  winningCondition();
+  createBoardButton.remove();
 }
 
 function winningCondition() {
@@ -125,3 +107,17 @@ function winningCondition() {
     }
   });
 }
+
+// Event Listeners
+
+table.addEventListener("click", (event) => {
+  if (event.target.tagName == "TD") {
+    event.target.classList.toggle("stamp");
+  }
+
+  /* I had to set this 1s delay on winningCondition because I was facing a graphical error at the bottom of the page when a winning scenario was reached on a bottom row click. It seemed to be an issue with overlapping animations. I tried setting an animation delay in CSS, but the error would still appear after the last stamp click, then dissapear on the winning animation. I set this delay so that the final stamp animation would complete before function ran to trigger the winner animation. This seemed to solve that issue. */
+
+  setTimeout(winningCondition, 600);
+});
+
+createBoardButton.addEventListener("click", createBoard);

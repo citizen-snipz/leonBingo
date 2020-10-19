@@ -62,22 +62,6 @@ td:hover {
   z-index: 1;
 }
 
-/* I had used this to create a kind of layer of
-opacity in front of my background image, but have 
-changed the way I achieved that. Neat trick though. */
-
-/* td::after {
-  content: "";
-  background-color: white;
-  opacity: .6;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 1;
-} */
-
 .stamp {
   animation-name: stamp;
   animation-duration: 0.5s;
@@ -105,13 +89,14 @@ changed the way I achieved that. Neat trick though. */
   opacity: 0.6;
 
   animation-name: winner;
-  animation-duration: 0.8s;
+  animation-duration: 0.6s;
   animation-fill-mode: forwards;
 }
 
 @keyframes winner {
   0% {
     transform: scale(1.2);
+    z-index: 2;
   }
   100% {
     transform: scale(5.5);

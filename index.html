@@ -1,4 +1,6 @@
-<!-- remove all IDs from divs, use querySelectorAll to gather them and create an array to iterate over instead of using ids -->
+<!-- Created by Shara and James Crosslin for the 100 Devs and Learning with Leon communities.  -->
+
+<!--  This bingo project is intended for educational and entertainmental purposes only. We cribbed our original outline from github.com/genevievepc47/Make-Your-Own-Bingo. You can see how the code evolved over time if you look through the previous commits.Help us improve this project as you learn CSS, HTML,  JavaSript!  -->
 
 <!DOCTYPE html>
 <html>
@@ -7,7 +9,7 @@
 
     <meta charset="utf-8" />
 
-    <meta name="description" content="Learn with Leon Bingo" />
+    <meta name="Leon Bingo" content="Learn with Leon Bingo" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -15,109 +17,110 @@
       <h1 id="headerAtTop">Learn With Leon Bingo!</h1>
     </header>
 
-    <button type="button" onclick="createBoard()">Create Board</button>
-    <table id="bingoBoard" hidden>
-      <tbody>
-        <tr>
-          <th>B</th>
-          <th>I</th>
-          <th>N</th>
-          <th>G</th>
-          <th>O</th>
-        </tr>
-        <tr>
-          <td onClick="markOff(0)">
-            <div class="contentArea"></div>
-          </td>
+    <button id="createBoard">Create Board</button>
+    <section>
+      <table id="bingoBoard" hidden>
+        <tbody>
+          <tr>
+            <th>B</th>
+            <th>I</th>
+            <th>N</th>
+            <th>G</th>
+            <th>O</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="contentArea"></div>
+            </td>
 
-          <td onClick="markOff(1)">
-            <div class="contentArea"></div>
-          </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
 
-          <td onClick="markOff(2)">
-            <div class="contentArea"></div>
-          </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
 
-          <td onClick="markOff(3)">
-            <div class="contentArea"></div>
-          </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
 
-          <td onClick="markOff(4)">
-            <div class="contentArea"></div>
-          </td>
-        </tr>
-        <tr>
-          <td onClick="markOff(5)">
-            <div class="contentArea"></div>
-          </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td id="freeSpace" class="stamp">
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+          </tr>
 
-          <td onClick="markOff(6)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(7)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(8)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(9)">
-            <div class="contentArea"></div>
-          </td>
-        </tr>
-        <tr>
-          <td onClick="markOff(10)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(11)">
-            <div class="contentArea"></div>
-          </td>
-          <td id="freeSpace" class="stamp">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(13)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(14)">
-            <div class="contentArea"></div>
-          </td>
-        </tr>
-        <tr>
-          <td onClick="markOff(15)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(16)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(17)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(18)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(19)">
-            <div class="contentArea"></div>
-          </td>
-        </tr>
-
-        <tr>
-          <td onClick="markOff(20)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(21)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(22)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(23)">
-            <div class="contentArea"></div>
-          </td>
-          <td onClick="markOff(24)">
-            <div class="contentArea"></div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          <tr>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+            <td>
+              <div class="contentArea"></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <footer></footer>
     <script src="js/main.js"></script>
   </body>
