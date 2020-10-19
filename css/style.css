@@ -3,13 +3,6 @@
   list-style: none;
 }
 
-header,
-section,
-footer,
-nav {
-  display: block;
-}
-
 body {
   background-image: linear-gradient(
     60deg,
@@ -50,18 +43,13 @@ button:hover {
   opacity: 1;
 }
 
-table,
-th,
-td {
-  border: 1px outset black;
-  box-shadow: 2px 2px rgb(60, 61, 63), -1px -1px rgb(60, 61, 63);
-}
-
 table {
   margin-left: 100px;
   margin-bottom: 30px;
 }
 td {
+  border: 1px outset black;
+  box-shadow: 2px 2px rgb(60, 61, 63), -1px -1px rgb(60, 61, 63);
   width: 150px;
   height: 150px;
   position: relative;
@@ -105,6 +93,19 @@ changed the way I achieved that. Neat trick though. */
   }
 }
 
+.finisher {
+  background: url("../img/logo.png");
+  background-color: lightblue;
+  background-size: cover;
+
+  animation-name: gameOver;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes gameOver {
+}
+
 .contentArea {
   position: absolute;
   top: 50%;
@@ -140,8 +141,7 @@ header h1 {
 body section {
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  display: flex;
 }
 
 .backgroundImage {

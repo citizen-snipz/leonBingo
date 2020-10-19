@@ -77,7 +77,7 @@ function createBoard() {
 
       let randomPhrase = bingoPhrases[randomNum];
 
-      console.log(randomPhrase, i);
+      // console.log(randomPhrase, i);  uncomment this if you want to see how the logic makes sure there are no repeats
 
       if (boardSpaces.indexOf(randomPhrase) < 0) {
         boardSpaces[i] = randomPhrase;
