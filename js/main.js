@@ -7,7 +7,7 @@ const createBoardButton = document.getElementById("createBoard");
 const mainSection = document.getElementById("main");
 let freeSpace = document.getElementById("freeSpace");
 
-const phraseDatabase = [
+const phraseBank = [
   "Someone compliments Leon's hair",
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   "Someone emotes a Micro Leon in chat",
@@ -63,15 +63,15 @@ function createBoard() {
     if (i === 12) {
       boardPhrases.push("");
     } else {
-      let randomNum = Math.floor(Math.random() * phraseDatabase.length);
+      let randomNum = Math.floor(Math.random() * phraseBank.length);
 
-      let randomPhrase = phraseDatabase[randomNum];
+      let randomPhrase = phraseBank[randomNum];
 
       /* console.log(randomPhrase, i);  <-- uncomment 
       and then check the console if you want to see 
       how the logic makes sure there are no repeats */
 
-      if (boardPhrases.indexOf(randomPhrase) < 0) {
+      if (!boardPhrases.includes(randomPhrase)) {
         boardPhrases.push(randomPhrase);
       } else {
         /* i is subtracted here when a repeat is found. Since i will get a ++ to my index at the end of the current iteration, it evens out and makes the loop repeat the same value of i until it finds a phrase that hasn't been used yet. */
@@ -112,14 +112,16 @@ function winningCondition() {
 
 // Event Listeners
 
+createBoardButton.addEventListener("click", createBoard);
+
 table.addEventListener("click", (event) => {
   if (event.target.tagName == "TD" && event.target != freeSpace) {
     event.target.classList.toggle("stamp");
+
+    /* I had to set this 1s delay on winningCondition because I was facing a graphical error at the bottom of the page when a winning scenario was reached on a bottom row click. It seemed to be an issue with overlapping animations. I tried setting an animation delay in CSS, but the error would still appear after the last stamp click, then dissapear on the winning animation. I set this delay so that the final stamp animation would complete before function ran to trigger the winner animation. This seemed to solve that issue. */
+
+    setTimeout(winningCondition, 600);
+  } else if (event.target.className === "victory") {
+    event.target.className = "stamp";
   }
-
-  /* I had to set this 1s delay on winningCondition because I was facing a graphical error at the bottom of the page when a winning scenario was reached on a bottom row click. It seemed to be an issue with overlapping animations. I tried setting an animation delay in CSS, but the error would still appear after the last stamp click, then dissapear on the winning animation. I set this delay so that the final stamp animation would complete before function ran to trigger the winner animation. This seemed to solve that issue. */
-
-  setTimeout(winningCondition, 600);
 });
-
-createBoardButton.addEventListener("click", createBoard);

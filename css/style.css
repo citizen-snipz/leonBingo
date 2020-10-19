@@ -28,7 +28,7 @@ body {
   font-weight: 550;
 }
 
-button {
+#createBoard {
   text-align: center;
   padding: 30px;
   width: auto;
@@ -47,11 +47,11 @@ button {
   opacity: 0.6;
 }
 
-button:hover {
-  transform: scale(1.3);
+#createBoard:hover {
+  transform: scale(1.5) translateY(-33px);
   opacity: 1;
-  box-shadow: 0 8px 1px -2px rgb(14, 157, 138),
-    0 12px 1px -4px rgb(193, 60, 226), 0 15px 1px -6px rgb(3, 94, 94),
+  box-shadow: 0 5px 1px -2px rgb(14, 157, 138),
+    0 10px 1px -4px rgb(193, 60, 226), 0 15px 1px -6px rgb(3, 94, 94),
     0 18px 1px -8px rgb(204, 242, 232);
 }
 
@@ -128,28 +128,6 @@ td:hover {
   }
 }
 
-.contentArea {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 150px;
-  z-index: 1;
-}
-
-td:after {
-  content: "";
-  display: block;
-}
-td .content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
 header h1 {
   text-align: center;
   color: rgb(211, 226, 241);
@@ -164,12 +142,6 @@ body section {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-}
-
-.backgroundImage {
-  opacity: 0.5;
-  width: 110px;
-  height: 110px;
 }
 
 a {
