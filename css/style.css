@@ -76,7 +76,7 @@ td {
   height: 150px;
   position: relative;
   text-align: center;
-  background-color: hsl(195, 65%, 70%);
+  background-color: hsl(191, 48%, 60%);
 }
 td:hover {
   transform: scale(1.1);
