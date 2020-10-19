@@ -9,32 +9,33 @@ let freeSpace = document.getElementById("freeSpace");
 
 const phraseDatabase = [
   "Someone compliments Leon's hair",
-  'Someone preemptively types "organization" in the chat',
+  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   "Someone emotes a Micro Leon in chat",
   "Leon says octothorpe",
   "Leon says 'automagically' ✨✨✨✨",
   '"A variable is a bucket"',
   "Leon forgets to turn off the background music 🎶",
-  "Three people finish a challenge before the timer goes off",
-  "Someone mentions the OnlyFans page 🎥 ",
+  "Three people finish a challenge before the timer goes off ⏲️",
+  "Someone mentions the OnlyFans page 🔞 ",
   "Alissa posts a helpful link in chat 🔗",
   "Leon tells us what he is drinking today",
   "Everyone freaks out about operators",
-  "Hydrate! 💧",
+  "Hydrate! 🚰",
   "Posture Check!",
-  "Someone asks Leon how he balances his time ⌛️",
+  "Someone asks Leon how he balances his time ⌛",
   "binary upload boom 👽",
-  "Don't call yourself a junior dev",
-  "one job please! 💸",
+  "Don't call yourself a junior dev 🙅🏿",
+  "one job please! 💰",
   "STRETCH!",
   "community goal met 🎉",
   "Bob is mentioned",
   "Someone asks Leon which programming languages he uses",
   "Dylan spits hot fire 🔥🔥",
   "The Bachelor 🌹",
-  "Bring It On",
+  "Bring It On 📣",
   "The nuns!",
-  "Domino's 🍕"
+  "Domino's 🍕",
+  "Simba barks in the background 🐕"
 ];
 
 const winningCombos = [
