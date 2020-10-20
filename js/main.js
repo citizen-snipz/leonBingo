@@ -39,7 +39,8 @@ const phraseBank = [
   "which house am I??",
   "House Turing is mentioned",
   "House Hamilton is mentioned",
-  "House Hopper is mentioned"
+  "House Hopper is mentioned",
+  "Leon turns into Little Leon"
 ]
 
 const winningCombos = [
