@@ -67,7 +67,7 @@ footer {
 table {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 td {
   border: 1px outset black;
@@ -120,7 +120,7 @@ td:hover {
     z-index: 2;
   }
   100% {
-    transform: scale(5.5);
+    transform: scale(5.2);
     opacity: 1;
     z-index: 2;
     box-shadow: none;
