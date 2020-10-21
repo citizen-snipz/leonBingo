@@ -82,7 +82,7 @@ body {
   transform: scale(1.1);
 }
 
-#coverAll p {
+#coverAll:hover p {
   display: block;
 }
 /* Use this to get a description box on hover 
