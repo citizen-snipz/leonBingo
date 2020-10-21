@@ -86,7 +86,7 @@ section button {
 
   animation-name: glow;
   animation-iteration-count: infinite;
-  animation-duration: 2.5s;
+  animation-duration: 3s;
   animation-timing-function: ease;
 }
 

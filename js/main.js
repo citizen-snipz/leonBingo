@@ -161,17 +161,19 @@ btnContainer.addEventListener("click", (event) => {
     coverAllMode = false
     event.target.className = ""
     event.target.textContent = "Cover-all Mode: Off"
+    winningCondition()
   } else if (event.target.id === "coverAll") {
     coverAllMode = true
     event.target.className = "coverAllOn"
     event.target.textContent = "Cover-all Mode: On"
+    freeSpace.innerHTML = ""
+    freeSpace.className = "stamp"
   } else if (event.target.id === "shuffle") {
     boardSquares.forEach((square) => {
       if (square.id != "freeSpace") {
         square.className = ""
       }
     })
-
     createBoard()
   }
 })
