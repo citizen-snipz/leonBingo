@@ -61,11 +61,10 @@ const winningCombos = [
   [0, 4, 12, 20, 24]
 ]
 
-const boardPhrases = []
-
 // Function Declarations
 
 function createBoard() {
+  let boardPhrases = []
   for (let i = 0; i < 25; i++) {
     // index 12 is my free space, which I want to keep clear of phrases
     if (i === 12) {
@@ -166,5 +165,13 @@ btnContainer.addEventListener("click", (event) => {
     coverAllMode = true
     event.target.className = "coverAllOn"
     event.target.textContent = "Cover-all Mode: On"
+  } else if (event.target.id === "shuffle") {
+    boardSquares.forEach((square) => {
+      if (square.id != "freeSpace") {
+        square.className = ""
+      }
+    })
+
+    createBoard()
   }
 })

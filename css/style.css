@@ -62,7 +62,7 @@ body {
   margin-bottom: 20px;
 }
 
-#btnContainer button {
+section button {
   text-align: center;
   padding: 30px;
   width: auto;
@@ -80,6 +80,37 @@ body {
 #btnContainer button:hover {
   opacity: 1;
   transform: scale(1.1);
+}
+.coverAllOn {
+  opacity: 1;
+
+  animation-name: glow;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+  animation-timing-function: ease;
+}
+
+@keyframes glow {
+  0% {
+    border: 5px solid rgb(143, 203, 144);
+    background-color: rgb(11, 61, 92);
+    color: rgb(143, 203, 144);
+  }
+  35% {
+    border: 5px solid rgb(234, 236, 74);
+    background-color: rgb(11, 61, 92);
+    color: rgb(234, 236, 74);
+  }
+  65% {
+    border: 5px solid rgb(234, 236, 74);
+    background-color: rgb(11, 61, 92);
+    color: rgb(234, 236, 74);
+  }
+  100% {
+    border: 5px solid rgb(143, 203, 144);
+    background-color: rgb(11, 61, 92);
+    color: rgb(143, 203, 144);
+  }
 }
 
 #coverAll:hover p {
