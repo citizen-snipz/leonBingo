@@ -55,6 +55,41 @@ body {
     0 18px 1px -8px rgb(204, 242, 232);
 }
 
+#btnContainer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#btnContainer button {
+  text-align: center;
+  padding: 30px;
+  width: auto;
+  border: 5px solid rgb(211, 226, 241);
+  background-color: rgb(11, 61, 92);
+  color: rgb(211, 226, 241);
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 0.4s;
+  opacity: 0.6;
+}
+
+#btnContainer button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#coverAll p {
+  display: block;
+}
+/* Use this to get a description box on hover 
+explaining the cover-all mode */
+p {
+  display: none;
+}
 footer {
   bottom: 25px;
   width: 100%;
