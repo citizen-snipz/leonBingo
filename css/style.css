@@ -210,6 +210,10 @@ body section {
   display: flex;
 }
 
+body #main {
+  margin-top: 50px;
+}
+
 a {
   color: white;
 }
