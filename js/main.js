@@ -42,7 +42,8 @@ const phraseBank = [
   "House Turing is mentioned",
   "House Hamilton is mentioned",
   "House Hopper is mentioned",
-  "Leon turns into Little Leon"
+  "Leon turns into Little Leon",
+  "We're going to end early today LOL"
 ]
 
 const winningCombos = [

@@ -161,11 +161,11 @@ td:hover {
 
 @keyframes stamp {
   0% {
-    opacity: 0;
+    opacity: 1;
     transform: scale(4);
   }
   100% {
-    opacity: 0.6;
+    opacity: 0.5;
   }
 }
 
@@ -183,7 +183,9 @@ td:hover {
 @keyframes winner {
   0% {
     transform: scale(1.2);
+    opacity: 0.8;
     z-index: 2;
+    padding-top: 20px;
   }
   100% {
     transform: scale(5.2);
@@ -191,6 +193,7 @@ td:hover {
     z-index: 2;
     box-shadow: none;
     white-space: pre-line;
+    padding-top: 20px;
   }
 }
 
