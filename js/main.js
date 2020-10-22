@@ -7,6 +7,8 @@ const createBoardButton = document.getElementById("createBoard")
 const mainSection = document.getElementById("main")
 const freeSpace = document.getElementById("freeSpace")
 const btnContainer = document.getElementById("btnContainer")
+const coverAllBtn = document.getElementById("coverAll")
+const shuffleBtn = document.getElementById("shuffle")
 let coverAllMode = false
 
 const phraseBank = [
@@ -153,30 +155,32 @@ table.addEventListener("click", (event) => {
 
     setTimeout(winningCondition, 600)
   } else if (event.target.className === "victory") {
+    event.target.innerHTML = ""
     event.target.className = "stamp"
   }
 })
 
-btnContainer.addEventListener("click", (event) => {
+coverAllBtn.addEventListener("click", (event) => {
   if (event.target.className === "coverAllOn") {
     coverAllMode = false
     event.target.className = ""
     event.target.textContent = "Cover-all Mode: Off"
     freeSpace.innerHTML = ""
     winningCondition()
-  } else if (event.target.id === "coverAll") {
+  } else {
     coverAllMode = true
     event.target.className = "coverAllOn"
     event.target.textContent = "Cover-all Mode: On"
-    freeSpace.innerHTML = `COVER-ALL
-    MODE`
-    // freeSpace.className = "stamp"
-  } else if (event.target.id === "shuffle") {
-    boardSquares.forEach((square) => {
-      if (square.id != "freeSpace") {
-        square.className = ""
-      }
-    })
-    createBoard()
+    freeSpace.innerHTML = ""
+    freeSpace.className = "stamp"
   }
+})
+
+shuffleBtn.addEventListener("click", (event) => {
+  boardSquares.forEach((square) => {
+    if (square.id != "freeSpace") {
+      square.className = ""
+    }
+  })
+  createBoard()
 })
