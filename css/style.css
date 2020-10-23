@@ -113,14 +113,24 @@ section button {
   }
 }
 
-#coverAll:hover p {
-  display: block;
+div:hover span {
+  visibility: visible;
 }
-/* Use this to get a description box on hover 
-explaining the cover-all mode */
-p {
-  display: none;
+
+div span {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
+
 footer {
   bottom: 25px;
   width: 100%;

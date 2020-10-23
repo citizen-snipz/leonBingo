@@ -11,6 +11,11 @@ const coverAllBtn = document.getElementById("coverAll")
 const shuffleBtn = document.getElementById("shuffle")
 let coverAllMode = false
 
+/**
+ * @typedef {Array} phraseBank
+ * @description This is where we store all of our phrases that we want to use for bingo tiles.
+ */
+
 const phraseBank = [
   "Someone compliments Leon's hair",
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
@@ -48,6 +53,11 @@ const phraseBank = [
   "We're going to end early today LOL"
 ]
 
+/**
+ * @typedef {Array} winningCombos
+ * @description This array hosts the values that represent the squares in the table. We will access it when we querySelectAll('td') later to see whether we have a win scenario.
+ */
+
 const winningCombos = [
   [0, 1, 2, 3, 4],
   [5, 6, 7, 8, 9],
@@ -66,25 +76,31 @@ const winningCombos = [
 
 // Function Declarations
 
+/**
+ * @typedef {function} createBoard
+ * @description Creates the game board by selecting random phrases from the phrase bank, assigning them to DOM Elements, displaying the board in the DOM, and removing the Create Game button.
+ */
+
 function createBoard() {
   let boardPhrases = []
   for (let i = 0; i < 25; i++) {
-    // index 12 is my free space, which I want to keep clear of phrases
     if (i === 12) {
+      // index 12 is my free space which I want blank
       boardPhrases.push("")
     } else {
-      let randomNum = Math.floor(Math.random() * phraseBank.length)
+      /**
+       * @typedef {Variable} randomPhrase
+       * @description This variable changes with every loop and selects a value at a random index of phraseBank.
+       */
 
-      let randomPhrase = phraseBank[randomNum]
-
-      /* console.log(randomPhrase, i);  <-- uncomment 
-      and then check the console if you want to see 
-      how the logic makes sure there are no repeats */
+      const randomPhrase =
+        phraseBank[Math.floor(Math.random() * phraseBank.length)]
 
       if (!boardPhrases.includes(randomPhrase)) {
         boardPhrases.push(randomPhrase)
       } else {
-        /* i is subtracted here when a repeat is found. Since i will get a ++ to my index at the end of the current iteration, it evens out and makes the loop repeat the same value of i until it finds a phrase that hasn't been used yet. e.g, if I am on index 5, and the boardPhrases array already includes randomPhrase, i-- will reduce index to 4, then the natural iteration of the loop will bump my index back up to 5 before it checks conditions again. That will continue until an unused randomPhrase is selected. */
+        /**
+         * @description i is subtracted here when a repeat is found. Since i will get a ++ to my index at the end of the current iteration, it evens out and makes the loop repeat the same value of i until it finds a phrase that hasn't been used yet. e.g, if I am on index 5, and the boardPhrases array already includes randomPhrase, i-- will reduce index to 4, then the natural iteration of the loop will bump my index back up to 5 before it checks conditions again. That will continue until an unused randomPhrase is selected. */
 
         i--
       }
@@ -102,12 +118,10 @@ function createBoard() {
 function winningCondition() {
   if (!coverAllMode) {
     winningCombos.forEach((combo) => {
-      /* This filter method iterates over a 5-value array in winningCombos and stores in the stamped array each value that meets the condition of having the 'stamp' class. */
       const stamped = combo.filter((squareIndex) => {
         return boardSquares[squareIndex].className === "stamp"
       })
 
-      /* After the previous loop iterates over a 5-value winning scenario and returns an array, this conditional verifies that a stamped square exists at index 4 of the winning scenario, i.e. a 5th value. Therefore, if all of the values in the scenario are stamped, we've met our win condition. */
       if (stamped[4]) {
         freeSpace.className = "victory"
         freeSpace.innerHTML = `
@@ -121,7 +135,6 @@ function winningCondition() {
     const stamped = [...boardSquares].filter((square) => {
       return square.className === "stamp"
     })
-    console.log(stamped)
     if (stamped[24]) {
       freeSpace.className = "victory"
       freeSpace.innerHTML = `
@@ -137,21 +150,19 @@ function winningCondition() {
 
 createBoardButton.addEventListener("click", createBoard)
 
-/* setting an event listener on my whole table allows 
-my clicks to be registered for all my squares, but also
-all non-square elements of my table like borders and
-headers. This is due to a process called event
-bubbling, i.e. what event happens to a child element 
-alsohappens to a parent element. By setting a 
-conditional inside the event listener, I've created an 
-environment where I don't have to write an event  
-listener for every square. */
+/**
+ * @listens table.addEventListener()
+ * @description  setting an event listener on my whole table allows my clicks to be registered for all my squares, but also all non-square elements of my table like borders and headers. This is due to a process called event bubbling, i.e. what event happens to a child element also happens to a parent element. By setting a conditional inside the event listener, I've created an environment where only clicks of squares are accepted, but I don't have to write an event listener for every square. */
 
 table.addEventListener("click", (event) => {
   if (event.target.tagName == "TD" && event.target != freeSpace) {
     event.target.classList.toggle("stamp")
 
-    /* I had to set this 0.6s delay on winningCondition because I was facing a graphical error at the bottom of the page when a winning scenario was reached on a bottom row click. It seemed to be an issue with overlapping animations. I tried setting an animation delay in CSS, but the error would still appear after the last stamp click, then disappear on the winning animation. I set this delay so that the final stamp animation would complete before function ran to trigger the winner animation. This seemed to solve that issue. */
+    /**
+     * @typedef {Function} setTimeout(winningCondition, 600)
+     *
+     * @description This 0.6s delay on winningCondition is necessary due to overlapping CSS animations. Without it, the animations running simultaneously will result in clipping.
+     */
 
     setTimeout(winningCondition, 600)
   } else if (event.target.className === "victory") {
