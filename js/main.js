@@ -1,5 +1,5 @@
 // Variable Declarations
-
+const fullPhraseBank = [...phraseBank, ...weeklyPhrases]
 const boardSquares = document.querySelectorAll("td")
 const table = document.querySelector("tbody")
 const hiddenElements = document.querySelectorAll("[hidden]")
@@ -10,48 +10,6 @@ const btnContainer = document.getElementById("btnContainer")
 const coverAllBtn = document.getElementById("coverAll")
 const shuffleBtn = document.getElementById("shuffle")
 let coverAllMode = false
-
-/**
- * @typedef {Array} phraseBank
- * @description This is where we store all of our phrases that we want to use for bingo tiles.
- */
-
-const phraseBank = [
-  "Someone compliments Leon's hair",
-  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
-  "Someone emotes a Micro Leon in chat",
-  "Leon says octothorpe",
-  "Leon says 'automagically' \r✨✨✨✨",
-  '"A variable is a bucket"',
-  "Leon forgets to turn off the background music 🎶",
-  "Three people finish a challenge before the timer goes off ⏲️",
-  "Someone mentions the OnlyFans page 🔞 ",
-  "Alissa posts a helpful link in chat 🔗",
-  "Leon tells us what he is drinking today",
-  "Everyone freaks out about operators",
-  "Hydrate! 🚰",
-  "Posture Check!",
-  "Someone asks Leon how he balances his time ⌛",
-  "binary upload boom 👽",
-  "Don't call yourself a junior dev 🙅🏿",
-  "one job please! 💰",
-  "STRETCH!",
-  "community goal met 🎉",
-  "Bob is mentioned",
-  "Someone asks Leon which programming languages he uses",
-  "Dylan spits hot fire 🔥🔥",
-  "The Bachelor 🌹",
-  "Bring It On 📣",
-  "The nuns!",
-  "Domino's 🍕",
-  "Simba barks in the background 🐕",
-  "which house am I??",
-  "House Turing is mentioned",
-  "House Hamilton is mentioned",
-  "House Hopper is mentioned",
-  "Leon turns into Little Leon",
-  "We're going to end early today LOL"
-]
 
 /**
  * @typedef {Array} winningCombos
@@ -94,7 +52,7 @@ function createBoard() {
        */
 
       const randomPhrase =
-        phraseBank[Math.floor(Math.random() * phraseBank.length)]
+        fullPhraseBank[Math.floor(Math.random() * fullPhraseBank.length)]
 
       if (!boardPhrases.includes(randomPhrase)) {
         boardPhrases.push(randomPhrase)
@@ -123,12 +81,7 @@ function winningCondition() {
       })
 
       if (stamped[4]) {
-        freeSpace.className = "victory"
-        freeSpace.innerHTML = `
-      \n
-      \n
-      CONGRATS! 😃 
-      🎉🎉🎉`
+        victory()
       }
     })
   } else {
@@ -136,14 +89,20 @@ function winningCondition() {
       return square.className === "stamp"
     })
     if (stamped[24]) {
-      freeSpace.className = "victory"
-      freeSpace.innerHTML = `
-    \n
-    \n
-    CONGRATS! 😃 
-    🎉🎉🎉`
+      victory()
     }
   }
+}
+
+function victory() {
+  freeSpace.className = "victory"
+  setTimeout(() => {
+    freeSpace.innerHTML = `
+    \n
+    \n
+  CONGRATS! 😃 
+  🎉🎉🎉`
+  }, 300)
 }
 
 // Event Listeners
@@ -159,9 +118,9 @@ table.addEventListener("click", (event) => {
     event.target.classList.toggle("stamp")
 
     /**
-     * @typedef {Function} setTimeout(winningCondition, 600)
+     * @typedef {Async} setTimeout(winningCondition, 600)
      *
-     * @description This 0.6s delay on winningCondition is necessary due to overlapping CSS animations. Without it, the animations running simultaneously will result in clipping.
+     * @description This 1s delay on winningCondition is necessary due to overlapping CSS animations. Without it, the stamp and victory animations running simultaneously will result in clipping.
      */
 
     setTimeout(winningCondition, 600)
