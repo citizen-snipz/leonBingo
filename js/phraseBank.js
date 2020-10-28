@@ -5,7 +5,6 @@
 
 const phraseBank = [
   "Someone compliments Leon's hair",
-  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   "Someone emotes a Micro Leon in chat",
   "Leon says octothorpe",
   "Leon says 'automagically' \r✨✨✨✨",
@@ -18,7 +17,6 @@ const phraseBank = [
   "Hydrate! 🚰",
   "Posture Check!",
   "Someone asks Leon how he balances his time ⌛",
-  "binary, upload, boom 👽",
   "Don't call yourself a junior dev 🙅🏿",
   "one job please! 💰",
   "STRETCH!",

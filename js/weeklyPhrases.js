@@ -8,5 +8,7 @@ const weeklyPhrases = [
   "Ordered List",
   "Unordered List",
   `Syntax:
-   Spelling and Grammar rules`
+   Spelling and Grammar rules`,
+  'Someone preemptively types "organization" in the chat 👩🏽‍💻'
+  //    "binary, upload, boom 👽",
 ]
