@@ -66,7 +66,7 @@ function createBoard() {
   }
 
   for (let i = 0; i < 25; i++) {
-    boardSquares[i].innerHTML = boardPhrases[i]
+    boardSquares[i].innerHTML = boardPhrases.shift()
   }
   hiddenElements.forEach((element) => (element.hidden = false))
 
@@ -97,11 +97,12 @@ function winningCondition() {
 function victory() {
   freeSpace.className = "victory"
   setTimeout(() => {
-    freeSpace.innerHTML = `
+    freeSpace.innerHTML = `<span>
     \n
     \n
   CONGRATS! 😃 
-  🎉🎉🎉`
+  🎉🎉🎉
+  </span>`
   }, 300)
 }
 

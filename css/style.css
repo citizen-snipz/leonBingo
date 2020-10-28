@@ -59,7 +59,7 @@ body {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 section button {
@@ -164,7 +164,7 @@ td:hover {
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
-  background: url("../img/logo.png");
+  background: url("../img/resizedLogo.png");
   background-color: lightblue;
   background-size: cover;
 }
@@ -183,7 +183,7 @@ td:hover {
   z-index: 2;
 }
 .victory {
-  background: url("../img/logo.png");
+  background: url("../img/resizedLogo.png");
   background-color: lightblue;
   background-size: cover;
   /* opacity: 0.6; */
@@ -201,11 +201,11 @@ td:hover {
     /* padding-top: 5px; */
   }
   100% {
-    transform: scale(5.6);
+    transform: scale(5.2);
     opacity: 1;
     box-shadow: none;
     white-space: pre-line;
-    /* padding-top: 20px; */
+    padding-top: 25px;
   }
 }
 
