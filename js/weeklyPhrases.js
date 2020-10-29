@@ -11,9 +11,8 @@ const weeklyPhrases = [
    Spelling and Grammar rules`,
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   "Resetting the Forgetting Curve 😱",
-  "What is the internet? 🌐",
   "What should go in the <head> tag?",
   "anchor <a> tags are for links ⚓",
-  "Progressive Enhancement "
+  "Progressive Enhancement"
   //    "binary, upload, boom 👽",
 ];
