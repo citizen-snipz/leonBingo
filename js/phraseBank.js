@@ -13,7 +13,7 @@ const phraseBank = [
   "Someone mentions the OnlyFans page 🔞 ",
   "Alissa posts a helpful link in chat 🔗",
   "Leon tells us what he is drinking today",
-  "Everyone freaks out about operators",
+  // "Everyone freaks out about operators",
   "Hydrate! 🚰",
   "Posture Check!",
   "Someone asks Leon how he balances his time ⌛",
@@ -22,7 +22,7 @@ const phraseBank = [
   "STRETCH!",
   "community goal met 🎉",
   "Bob is mentioned",
-  "Leon answers which languages he uses",
+  // "Leon answers which languages he uses",
   "Dylan spits hot fire 🔥🔥",
   "The Bachelor 🌹",
   "Bring It On 📣",
@@ -31,4 +31,4 @@ const phraseBank = [
   "Simba barks in the background 🐕",
   "Leon transforms into Little Leon",
   "We're going to end early today LOL"
-]
+];
