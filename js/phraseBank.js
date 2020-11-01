@@ -4,16 +4,15 @@
  */
 
 const phraseBank = [
-  "Someone compliments Leon's hair",
+  "Leon acknowledges a hair compliment",
   "Someone emotes a Micro Leon in chat",
   "Leon says octothorpe",
   "Leon says 'automagically' \r✨✨✨✨",
   "Leon forgets to turn off the background music 🎶",
   "Three people finish a challenge before the timer goes off ⏲️",
-  "Someone mentions the OnlyFans page 🔞 ",
+  "Leon mentions the OnlyFans page 🔞 ",
   "Alissa posts a helpful link in chat 🔗",
   "Leon tells us what he is drinking today",
-  // "Everyone freaks out about operators",
   "Hydrate! 🚰",
   "Posture Check!",
   "Someone asks Leon how he balances his time ⌛",
@@ -30,5 +29,6 @@ const phraseBank = [
   "Domino's 🍕",
   "Simba barks in the background 🐕",
   "Leon transforms into Little Leon",
-  "We're going to end early today LOL"
+  "We're going to end early today LOL",
+  "Leon forgets and then remembers that bingo exists"
 ]

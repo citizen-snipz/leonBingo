@@ -15,4 +15,5 @@ const weeklyPhrases = [
   "anchor tags are for links ⚓",
   "Progressive Enhancement"
   //    "binary, upload, boom 👽",
+  // "Everyone freaks out about operators",
 ]
