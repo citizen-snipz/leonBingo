@@ -10,7 +10,7 @@ const weeklyPhrases = [
   //    "binary, upload, boom 👽",
   // "Everyone freaks out about operators",
   "Repetition Repetition Repetition Repetition Repetition Repetition",
-  "CSS goes in the head 🗣️",
+  "CSS link goes in the head 🗣️",
   "Don't know? Go to the MDN!",
   "Selectors are about relationships",
   "Only ONE id with the same value per document!",
