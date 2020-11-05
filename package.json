@@ -3,16 +3,18 @@
   "version": "1.0.0",
   "description": "A bingo game designed for the Learn with Leon twitch and Discord communities.",
   "main": "main.js",
+  "type" : "module",
   "scripts": {
-    "test": "none"
+    "test": "main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/citizen-snipz/leonBingo.git"
+    "url": "https://github.com/citizen-snipz/leonBingo.git"
   },
   "keywords": [
     "Bingo",
     "Leonnoel",
+    "Leon",
     "Learning",
     "Javascript",
     "CSS",
@@ -20,7 +22,7 @@
     "Game"
   ],
   "author": "github.com/mightykrakyn",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/citizen-snipz/leonBingo/issues"
   },
