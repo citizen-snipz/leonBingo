@@ -16,8 +16,8 @@ const phraseBank = [
   "Hydrate! 🚰",
   "Posture Check!",
   // "Someone asks Leon how he balances his time ⌛",
-  "Don't call yourself a junior dev 🙅🏿",
-  "one job please! 💰",
+  // "Don't call yourself a junior dev 🙅🏿",
+  // "one job please! 💰",
   "STRETCH!",
   "community goal met 🎉",
   "Bob is mentioned",
@@ -29,6 +29,8 @@ const phraseBank = [
   "Domino's 🍕",
   "Simba barks in the background 🐕",
   "Leon transforms into Little Leon",
-  "It looks like we're going to run a little late LOL",
-  "Leon forgets and then remembers that bingo exists"
+  "It looks like we're going to run a little late",
+  "Leon forgets and then remembers that bingo exists",
+  "You messed up",
+  "bootieliquor gets a shoutout"
 ]
