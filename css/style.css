@@ -81,6 +81,11 @@ section button {
   opacity: 1;
   transform: scale(1.1);
 }
+
+#btnContainer #shuffleOff:hover {
+  opacity: 0.6;
+  transform: scale(1);
+}
 .coverAllOn {
   opacity: 1;
 
