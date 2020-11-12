@@ -25,12 +25,12 @@ const phraseBank = [
   // "Dylan spits hot fire 🔥🔥",
   // "The Bachelor 🌹",
   // "Bring It On 📣",
-  //"The nuns!",
+  "The nuns!",
   "Domino's 🍕",
   "Simba barks in the background 🐕",
   "Leon transforms into Little Leon",
-  "It looks like we're going to run a little late",
-  "Leon forgets and then remembers that bingo exists",
+  // "It looks like we're going to run a little late",
+  // "Leon forgets and then remembers that bingo exists",
   "You messed up",
-  "bootieliquor gets a shoutout"
+  "Leon is amused by bootieliquor's name"
 ]

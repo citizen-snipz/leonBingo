@@ -1,20 +1,22 @@
 const weeklyPhrases = [
-  `The Golden Rule: Seperation of Concerns 
-  \n
-  👑👑👑`, //yes
-  "Hello twitch!", //yes
-  'Someone preemptively types "organization" in the chat 👩🏽‍💻', //yes
-  "Leon mentions Anki 🗃️", //yes
-  "Link to CSS goes in the head 🗣️", //yes
-  "Don't know? Go to the MDN!", //yes
-  "Get your selector relationships in order", //yes
-  "Only ONE id with the same value per document!", //yes
-  "Someone figures out the specificity before you even start", //yes
-  "Zebra", //yes
-  "CSS belongs in a separate file", //yes
-  "Cascade - lower rules can override the ones above!", //yes
-  "The Box Model:  Content > Padding > Border > Margin", //yes
-  "We all float down here; you'll float too 🎈🎈🎈"
+  `The Golden Rule: Seperation of Concerns
+  👑👑👑`,
+  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+  "Leon mentions Anki 🗃️",
+  "Link to CSS goes in the head 🗣️",
+  "Don't know? Go to the MDN!",
+  "Get your selector relationships in order",
+  "Only ONE id with the same value per document!",
+  "Someone figures out the specificity before you even start",
+  "Zebra",
+  "CSS belongs in a separate file",
+  "Cascade - lower rules can override the ones above!",
+  "The Box Model:  Content > Padding > Border > Margin",
+  "We all float down here; you'll float too 🎈🎈🎈",
+  "What is the internet? 💻 🖥️",
+  "Hello world!",
+  "Size doesn't matter, okay? OKAY???",
+  "Get your shit together UPS"
 ]
 /*
 const weekOnePhrases = [
