@@ -25,7 +25,7 @@ const phraseBank = [
   // "Dylan spits hot fire 🔥🔥",
   // "The Bachelor 🌹",
   // "Bring It On 📣",
-  "The nuns!",
+  "Blame the nuns!",
   "Domino's 🍕",
   "Simba barks in the background 🐕",
   "Leon transforms into Little Leon",
