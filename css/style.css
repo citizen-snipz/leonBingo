@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   list-style: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,17 +21,16 @@ body {
     rgb(47, 89, 126),
     rgb(32, 58, 78)
   );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: Verdana, Geneva, sans-serif;
   margin: 0px auto;
+  width: 1000px;
   color: rgb(230, 230, 238);
   text-shadow: 1px 1px 8px rgb(19, 19, 71);
   font-weight: 550;
-  max-width: 50%;
 }
 
-#main {
-  padding-bottom: 1rem;
-}
 #createBoard {
   text-align: center;
   padding: 30px;
@@ -58,10 +58,11 @@ body {
     0 18px 1px -8px rgb(204, 242, 232);
 }
 
-button {
+section button {
   text-align: center;
+  margin: auto;
   padding: 30px;
-  height: 120px;
+  width: auto;
   border: 5px solid rgb(211, 226, 241);
   background-color: rgb(11, 61, 92);
   color: rgb(211, 226, 241);
@@ -73,7 +74,7 @@ button {
   opacity: 0.6;
 }
 
-button:hover {
+#btnContainer button:hover {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -109,11 +110,11 @@ button:hover {
   }
 }
 
-/* div:hover span {
+div:hover span {
   visibility: visible;
-} */
+}
 
-/* div span {
+div span {
   visibility: hidden;
   width: 120px;
   background-color: black;
@@ -121,36 +122,37 @@ button:hover {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-*/
-/* Position the tooltip */
-/*
+
+  /* Position the tooltip */
   position: absolute;
   z-index: 1;
-} */
+}
 
 footer {
-  position: absolute;
-  bottom: 0px;
+  bottom: 25px;
   width: 100%;
+  line-height: 20px;
   text-shadow: 3px 3px 12px navy;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 25px;
+  margin-bottom: 20px;
 }
 
 table {
-  margin: auto;
-  margin-bottom: 6rem;
-  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 750px;
+  height: 750px;
+  min-height: calc(100vh-16px);
 }
 td {
   border: 1px outset black;
   box-shadow: 2px 2px rgb(60, 61, 63), -1px -1px rgb(60, 61, 63);
+  width: 150px;
+  height: 150px;
   position: relative;
   text-align: center;
   background-color: hsl(191, 48%, 60%);
-  height: 150px;
-  width: 150px;
 }
 td:hover {
   transform: scale(1.1);
@@ -215,6 +217,16 @@ header h1 {
   font-size: 60px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+body section {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+body #main {
+  margin-top: 50px;
 }
 
 a {
