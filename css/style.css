@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   list-style: none;
-  box-sizing: border-box;
 }
 
 body {
@@ -21,11 +20,10 @@ body {
     rgb(47, 89, 126),
     rgb(32, 58, 78)
   );
+  font-family: Verdana, Geneva, sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: Verdana, Geneva, sans-serif;
   margin: 0px auto;
-  width: 1000px;
   color: rgb(230, 230, 238);
   text-shadow: 1px 1px 8px rgb(19, 19, 71);
   font-weight: 550;
@@ -58,9 +56,15 @@ body {
     0 18px 1px -8px rgb(204, 242, 232);
 }
 
+#btnContainer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 section button {
   text-align: center;
-  margin: auto;
   padding: 30px;
   width: auto;
   border: 5px solid rgb(211, 226, 241);
@@ -129,21 +133,16 @@ div span {
 }
 
 footer {
-  bottom: 25px;
-  width: 100%;
+  position: absolute;
   line-height: 20px;
   text-shadow: 3px 3px 12px navy;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 table {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
-  width: 750px;
-  height: 750px;
-  min-height: calc(100vh-16px);
 }
 td {
   border: 1px outset black;
