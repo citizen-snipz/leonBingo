@@ -2,21 +2,26 @@ const weeklyPhrases = [
   `The Golden Rule: Seperation of Concerns
   👑👑👑`,
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
-  "Leon mentions Anki 🗃️",
-  "Link to CSS goes in the head 🗣️",
+  "CSS goes in a separate file",
   "Don't know? Go to the MDN!",
   "Get your selector relationships in order",
   "Only ONE id with the same value per document!",
   "Someone figures out the specificity before you even start",
-  "Zebra",
   "CSS belongs in a separate file",
   "Cascade - lower rules can override the ones above!",
   "The Box Model:  Content > Padding > Border > Margin",
   "We all float down here; you'll float too 🎈🎈🎈",
-  "What is the internet? 💻 🖥️",
-  "Hello world!",
-  "Size doesn't matter, okay? OKAY???",
-  "Get your shit together UPS"
+  "Get your shit together UPS",
+  "Fluid: EVERYTHING IS A PERCENTAGE %%%",
+  "Ems and Rems keep your font sizes elastic",
+  "Flexbox is magic, y'all ✨✨✨",
+  `<a href="http://css-tricks.com">css-tricks.com</a>: your CSS bible`,
+  "Tried to use a media query without viewport <meta> tag",
+  "Make good content decisions",
+  "Today's stranger is tomorrow's coworker",
+  "Insert unpaid meetup.com advertisement",
+  "A lime alien that will haunt your dreams",
+  "Spaced follow-up is important"
 ]
 /*
 const weekOnePhrases = [
