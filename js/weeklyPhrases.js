@@ -7,7 +7,6 @@ const weeklyPhrases = [
   "Get your selector relationships in order",
   "Only ONE id with the same value per document!",
   "Someone figures out the specificity before you even start",
-  "CSS belongs in a separate file",
   "Cascade - lower rules can override the ones above!",
   "The Box Model:  Content > Padding > Border > Margin",
   "We all float down here; you'll float too 🎈🎈🎈",
