@@ -21,7 +21,8 @@ const weeklyPhrases = [
   "Insert unpaid meetup.com advertisement",
   "A lime alien that will life forever in your nightmares",
   "Spaced follow-up is important",
-  "Progressive Enhancement"
+  "Progressive Enhancement",
+  "Kahn Academy"
 ]
 /*
 const weekOnePhrases = [
