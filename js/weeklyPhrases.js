@@ -22,8 +22,11 @@ const weeklyPhrases = [
   "A lime alien that will life forever in your nightmares",
   "Spaced follow-up is important",
   "Progressive Enhancement",
-  "Kahn Academy"
-]
+  "Khan Academy",
+  "Sh*t just got real 💩",
+  "Boats and logs 🚣🏽‍♀️",
+  "Make layouts 5-8 mobile responsive! 📱"
+];
 /*
 const weekOnePhrases = [
     "The Golden Rule 👑👑👑",
