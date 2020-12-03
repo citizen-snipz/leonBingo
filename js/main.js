@@ -1,15 +1,15 @@
 // Variable Declarations
-const fullPhraseBank = [...phraseBank, ...weeklyPhrases]
-const boardSquares = document.querySelectorAll("td")
-const table = document.querySelector("tbody")
-const hiddenElements = document.querySelectorAll("[hidden]")
-const createBoardButton = document.getElementById("createBoard")
-const mainSection = document.getElementById("main")
-const freeSpace = document.getElementById("freeSpace")
-const btnContainer = document.getElementById("btnContainer")
-const coverAllBtn = document.getElementById("coverAll")
-const shuffleBtn = document.getElementById("shuffle")
-let coverAllMode = false
+const fullPhraseBank = [...phraseBank, ...weeklyPhrases];
+const boardSquares = document.querySelectorAll("td");
+const table = document.querySelector("tbody");
+const hiddenElements = document.querySelectorAll("[hidden]");
+const createBoardButton = document.getElementById("createBoard");
+const mainSection = document.getElementById("main");
+const freeSpace = document.getElementById("freeSpace");
+const btnContainer = document.getElementById("btnContainer");
+const coverAllBtn = document.getElementById("coverAll");
+const shuffleBtn = document.getElementById("shuffle");
+let coverAllMode = false;
 
 /**
  * @typedef {Array} winningCombos
@@ -30,7 +30,7 @@ const winningCombos = [
   [0, 6, 12, 18, 24],
   [4, 8, 12, 16, 20],
   [0, 4, 12, 20, 24]
-]
+];
 
 // Function Declarations
 
@@ -40,11 +40,11 @@ const winningCombos = [
  */
 
 function createBoard() {
-  let boardPhrases = []
+  let boardPhrases = [];
   for (let i = 0; i < 25; i++) {
     if (i === 12) {
       // index 12 is my free space which I want blank
-      boardPhrases.push("")
+      boardPhrases.push("");
     } else {
       /**
        * @typedef {Variable} randomPhrase
@@ -52,63 +52,63 @@ function createBoard() {
        */
 
       const randomPhrase =
-        fullPhraseBank[Math.floor(Math.random() * fullPhraseBank.length)]
+        fullPhraseBank[Math.floor(Math.random() * fullPhraseBank.length)];
 
       if (!boardPhrases.includes(randomPhrase)) {
-        boardPhrases.push(randomPhrase)
+        boardPhrases.push(randomPhrase);
       } else {
         /**
          * @description i is subtracted here when a repeat is found. Since i will get a ++ to my index at the end of the current iteration, it evens out and makes the loop repeat the same value of i until it finds a phrase that hasn't been used yet. e.g, if I am on index 5, and the boardPhrases array already includes randomPhrase, i-- will reduce index to 4, then the natural iteration of the loop will bump my index back up to 5 before it checks conditions again. That will continue until an unused randomPhrase is selected. */
 
-        i--
+        i--;
       }
     }
   }
 
   for (let i = 0; i < 25; i++) {
-    boardSquares[i].innerHTML = boardPhrases.shift()
+    boardSquares[i].innerHTML = boardPhrases.shift();
   }
-  hiddenElements.forEach((element) => (element.hidden = false))
+  hiddenElements.forEach((element) => (element.hidden = false));
 
-  createBoardButton.remove()
+  createBoardButton.remove();
 }
 
 function winningCondition() {
   if (!coverAllMode) {
     winningCombos.forEach((combo) => {
       const stamped = combo.filter((squareIndex) => {
-        return boardSquares[squareIndex].className === "stamp"
-      })
+        return boardSquares[squareIndex].className === "stamp";
+      });
 
       if (stamped[4]) {
-        victory()
+        victory();
       }
-    })
+    });
   } else {
     const stamped = [...boardSquares].filter((square) => {
-      return square.className === "stamp"
-    })
+      return square.className === "stamp";
+    });
     if (stamped[24]) {
-      victory()
+      victory();
     }
   }
 }
 
 function victory() {
-  freeSpace.className = "victory"
+  freeSpace.className = "victory";
   setTimeout(() => {
     freeSpace.innerHTML = `<span>
     \n
     \n
   CONGRATS! 😃 
   🎉🎉🎉
-  </span>`
-  }, 300)
+  </span>`;
+  }, 300);
 }
 
 // Event Listeners
 
-createBoardButton.addEventListener("click", createBoard)
+createBoardButton.addEventListener("click", createBoard);
 
 /**
  * @listens table.addEventListener()
@@ -116,7 +116,7 @@ createBoardButton.addEventListener("click", createBoard)
 
 table.addEventListener("click", (event) => {
   if (event.target.tagName == "TD" && event.target != freeSpace) {
-    event.target.classList.toggle("stamp")
+    event.target.classList.toggle("stamp");
 
     /**
      * @typedef {Async} setTimeout(winningCondition, 600)
@@ -124,34 +124,34 @@ table.addEventListener("click", (event) => {
      * @description This 1s delay on winningCondition is necessary due to overlapping CSS animations. Without it, the stamp and victory animations running simultaneously will result in clipping.
      */
 
-    setTimeout(winningCondition, 600)
+    setTimeout(winningCondition, 600);
   } else if (event.target.className === "victory") {
-    event.target.innerHTML = ""
-    event.target.className = "stamp"
+    event.target.innerHTML = "";
+    event.target.className = "stamp";
   }
-})
+});
 
 coverAllBtn.addEventListener("click", (event) => {
   if (event.target.className === "coverAllOn") {
-    coverAllMode = false
-    event.target.className = ""
-    event.target.textContent = "Cover-all Mode: Off"
-    freeSpace.innerHTML = ""
-    winningCondition()
+    coverAllMode = false;
+    event.target.className = "";
+    event.target.textContent = "Cover-all Mode: Off";
+    freeSpace.innerHTML = "";
+    winningCondition();
   } else {
-    coverAllMode = true
-    event.target.className = "coverAllOn"
-    event.target.textContent = "Cover-all Mode: On"
-    freeSpace.innerHTML = ""
-    freeSpace.className = "stamp"
+    coverAllMode = true;
+    event.target.className = "coverAllOn";
+    event.target.textContent = "Cover-all Mode: On";
+    freeSpace.innerHTML = "";
+    freeSpace.className = "stamp";
   }
-})
+});
 
 shuffleBtn.addEventListener("click", (event) => {
   boardSquares.forEach((square) => {
     if (square.id != "freeSpace") {
-      square.className = ""
+      square.className = "";
     }
-  })
-  createBoard()
-})
+  });
+  createBoard();
+});
