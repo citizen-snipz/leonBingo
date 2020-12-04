@@ -12,12 +12,13 @@ const weeklyPhrases = [
   "binary, upload, boom 👽",
   `Syntax:
   Spelling and Grammar rules`,
-  "Declaration and then Assingment",
+  "Declaration and then Assignment",
   "camelCase isOurConvention",
   "Leon misspelled 'oven'",
   "Everyone freaks out about operators",
   "if(conditions mentioned){click!}",
-  "select my query!!!"
+  "select my query!!!",
+  "spend Jeff Bezos' money! 💸"
 ];
 /*
 const weekOnePhrases = [
