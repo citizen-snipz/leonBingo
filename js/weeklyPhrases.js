@@ -14,11 +14,15 @@ const weeklyPhrases = [
   Spelling and Grammar rules`,
   "Declaration and then Assignment",
   "camelCase isOurConvention",
-  "Leon misspelled 'oven'",
+  // "Leon misspelled 'oven'",
   "Everyone freaks out about operators",
   "if(conditions mentioned){click!}",
   "select my query!!!",
-  "spend Jeff Bezos' money! 💸"
+  "spend Jeff Bezos' money! 💸",
+  "Not that kind of stream, folx!",
+  "modulus % finds the remainder",
+  "BEWARE reassignment ( = ) vs. comparison ( ==/=== )",
+  "functions are the building blocks of a program 🧱"
 ];
 /*
 const weekOnePhrases = [
