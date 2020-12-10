@@ -24,7 +24,7 @@ const phraseBank = [
   // "Leon answers which languages he uses",
   // "Dylan spits hot fire 🔥🔥",
   "The Bachelor 🌹",
-  "Bring It On 📣",
+  // "Bring It On 📣",
   "Blame the nuns!",
   "Domino's 🍕",
   "Simba barks in the background 🐕",

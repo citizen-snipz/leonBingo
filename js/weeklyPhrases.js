@@ -6,7 +6,7 @@ const weeklyPhrases = [
   "Only ONE id with the same value per document!",
   "Make good content decisions",
   "Stranger to coworker pipeline",
-  "Insert unpaid meetup.com advertisement",
+  // "Insert unpaid meetup.com advertisement",
   "Computers do what you tell them to do",
   "Variables are buckets",
   "binary, upload, boom 👽",
@@ -21,8 +21,10 @@ const weeklyPhrases = [
   "spend Jeff Bezos' money! 💸",
   "Not that kind of stream, folx!",
   "modulus % finds the remainder",
-  "BEWARE reassignment ( = ) vs. comparison ( ==/=== )",
-  "functions are the building blocks of a program 🧱"
+  "BEWARE reassignment  ( = ) vs. comparison  ( ==/=== )",
+  "functions are the building blocks of a program 🧱",
+  "functions can take parameters and pass arguments",
+  "multiple conditions? Use && or ||"
 ];
 /*
 const weekOnePhrases = [
