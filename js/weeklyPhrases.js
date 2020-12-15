@@ -1,30 +1,35 @@
 const weeklyPhrases = [
   `The Golden Rule: Seperation of Concerns
   👑👑👑`,
-  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+  // 'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   "Don't know? Go to the MDN!",
-  "Only ONE id with the same value per document!",
+  // "Only ONE id with the same value per document!",
   "Make good content decisions",
   "Stranger to coworker pipeline",
   // "Insert unpaid meetup.com advertisement",
-  "Computers do what you tell them to do",
-  "Variables are buckets",
-  "binary, upload, boom 👽",
-  `Syntax:
-  Spelling and Grammar rules`,
-  "Declaration and then Assignment",
-  "camelCase isOurConvention",
+  // "Computers do what you tell them to do",
+  // "Variables are buckets",
+  // "binary, upload, boom 👽",
+  // `Syntax:
+  // Spelling and Grammar rules`,
+  // "Declaration and then Assignment",
+  // "camelCase isOurConvention",
   // "Leon misspelled 'oven'",
-  "Everyone freaks out about operators",
+  // "Everyone freaks out about operators",
   "if(conditions mentioned){click!}",
   "select my query!!!",
   "spend Jeff Bezos' money! 💸",
   "Not that kind of stream, folx!",
   "modulus % finds the remainder",
-  "BEWARE reassignment  ( = ) vs. comparison  ( ==/=== )",
+  "BEWARE reassignment <br> ( = ) vs. comparison <br> ( ==/=== )",
   "functions are the building blocks of a program 🧱",
   "functions can take parameters and pass arguments",
-  "multiple conditions? Use && or ||"
+  "multiple conditions? Use && or ||",
+  "You come to the realization that Leon is NOT a lawyer ⚖️",
+  "Build an online presence",
+  "Unless you're a designer, use a portfolio template",
+  "Don't freelance without a contract! 📝",
+  "Under promise, over deliver! 📦"
 ];
 /*
 const weekOnePhrases = [

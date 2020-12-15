@@ -32,6 +32,5 @@ const phraseBank = [
   // "It looks like we're going to run a little late",
   // "Leon forgets and then remembers that bingo exists",
   "You messed up",
-  "Leon is amused by bootieliquor's name",
-  "Don't be a code weenie 🌭"
+  "Leon is amused by bootieliquor's name"
 ];
