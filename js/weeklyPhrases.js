@@ -1,7 +1,7 @@
 const weeklyPhrases = [
   `The Golden Rule: Seperation of Concerns
   👑👑👑`,
-  // 'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   "Don't know? Go to the MDN!",
   "Only ONE id with the same value per document!",
   "Make good content decisions",
@@ -95,7 +95,7 @@ const week3Phrases = [
 ]
 */
 
-// const weeklyPhrases = [
+// const week4Phrases = [
 //   `The Golden Rule: Seperation of Concerns
 //   👑👑👑`,
 //   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
