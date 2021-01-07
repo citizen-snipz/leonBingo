@@ -3,20 +3,16 @@ const weeklyPhrases = [
   👑👑👑`,
   // 'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   "Don't know? Go to the MDN!",
-  // "Only ONE id with the same value per document!",
+  "Only ONE id with the same value per document!",
   "Make good content decisions",
-  "Stranger to coworker pipeline",
-  // "Insert unpaid meetup.com advertisement",
-  // "Computers do what you tell them to do",
-  // "Variables are buckets",
-  // "binary, upload, boom 👽",
-  // `Syntax:
-  // Spelling and Grammar rules`,
-  // "Declaration and then Assignment",
-  // "camelCase isOurConvention",
-  // "Leon misspelled 'oven'",
-  // "Everyone freaks out about operators",
-  "if(conditions mentioned){click!}",
+  "Computers do what you tell them to do",
+  "Variables are buckets",
+  "binary, upload, boom 👽",
+  `Syntax:
+  Spelling and Grammar rules`,
+  "Declaration and then Assignment",
+  "Everyone freaks out about operators",
+  // "if(conditions mentioned){click!}",
   "select my query!!!",
   "spend Jeff Bezos' money! 💸",
   "Not that kind of stream, folx!",
@@ -25,11 +21,11 @@ const weeklyPhrases = [
   "functions are the building blocks of a program 🧱",
   "functions can take parameters and pass arguments",
   "multiple conditions? Use && or ||",
-  "You come to the realization that Leon is NOT a lawyer ⚖️",
-  "Build an online presence",
-  "Unless you're a designer, use a portfolio template",
-  "Don't freelance without a contract! 📝",
-  "Under promise, over deliver! 📦"
+  "Leon reveals house-specific office hours!",
+  "Beware the trough of sorrow!",
+  "TURN IT UP!",
+  "Get a paid client by Feb 2!",
+  "Welcome back, we missed you! <br> Have a free space for being awesome! 😊"
 ];
 /*
 const weekOnePhrases = [
@@ -126,4 +122,38 @@ const week3Phrases = [
 //   "Sh*t just got real 💩",
 //   "Boats and logs 🚣🏽‍♀️",
 //   "Make layouts 5-8 mobile responsive! 📱"
+// ];
+
+// const weekSevenPhrases = [
+//   `The Golden Rule: Seperation of Concerns
+//   👑👑👑`,
+//   // 'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   "Don't know? Go to the MDN!",
+//   // "Only ONE id with the same value per document!",
+//   "Make good content decisions",
+//   "Stranger to coworker pipeline",
+//   // "Insert unpaid meetup.com advertisement",
+//   // "Computers do what you tell them to do",
+//   // "Variables are buckets",
+//   // "binary, upload, boom 👽",
+//   // `Syntax:
+//   // Spelling and Grammar rules`,
+//   // "Declaration and then Assignment",
+//   // "camelCase isOurConvention",
+//   // "Leon misspelled 'oven'",
+//   // "Everyone freaks out about operators",
+//   "if(conditions mentioned){click!}",
+//   "select my query!!!",
+//   "spend Jeff Bezos' money! 💸",
+//   "Not that kind of stream, folx!",
+//   "modulus % finds the remainder",
+//   "BEWARE reassignment <br> ( = ) vs. comparison <br> ( ==/=== )",
+//   "functions are the building blocks of a program 🧱",
+//   "functions can take parameters and pass arguments",
+//   "multiple conditions? Use && or ||",
+//   "You come to the realization that Leon is NOT a lawyer ⚖️",
+//   "Build an online presence",
+//   "Unless you're a designer, use a portfolio template",
+//   "Don't freelance without a contract! 📝",
+//   "Under promise, over deliver! 📦"
 // ];

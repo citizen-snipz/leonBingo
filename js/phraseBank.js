@@ -24,13 +24,13 @@ const phraseBank = [
   // "Leon answers which languages he uses",
   // "Dylan spits hot fire 🔥🔥",
   "The Bachelor 🌹",
-  // "Bring It On 📣",
+  "Bring It On 📣",
   "Blame the nuns!",
   "Domino's 🍕",
   "Simba barks in the background 🐕",
   "Leon transforms into Little Leon",
   // "It looks like we're going to run a little late",
-  // "Leon forgets and then remembers that bingo exists",
+  "Leon forgets and then remembers that bingo exists",
   "You messed up",
   "Leon is amused by bootieliquor's name"
 ];
