@@ -2,12 +2,12 @@ const weeklyPhrases = [
   `The Golden Rule: Seperation of Concerns
   👑👑👑`,
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
-  "Don't know? Go to the MDN!",
-  "Only ONE id with the same value per document!",
+  // "Don't know? Go to the MDN!",
+  // "Only ONE id with the same value per document!",
   "Make good content decisions",
   "Computers do what you tell them to do",
   "Variables are buckets",
-  "binary, upload, boom 👽",
+  // "binary, upload, boom 👽",
   `Syntax:
   Spelling and Grammar rules`,
   "Declaration and then Assignment",
@@ -21,11 +21,13 @@ const weeklyPhrases = [
   "functions are the building blocks of a program 🧱",
   "functions can take parameters and pass arguments",
   "multiple conditions? Use && or ||",
-  "Leon reveals house-specific office hours!",
-  "Beware the trough of sorrow!",
+  // "Beware the trough of sorrow!",
   "TURN IT UP!",
   "Get a paid client by Feb 2!",
-  "Welcome back, we missed you! <br> Have a free space for being awesome! 😊"
+  "Happy birthday, Alissa! 🎂",
+  "Arrays are like Bill Gates' toaster",
+  "Arrays are 0 indexed!",
+  "Arrays have methods - check out the MDN! 🔎"
 ];
 /*
 const weekOnePhrases = [
@@ -156,4 +158,34 @@ const week3Phrases = [
 //   "Unless you're a designer, use a portfolio template",
 //   "Don't freelance without a contract! 📝",
 //   "Under promise, over deliver! 📦"
+// ];
+
+// const weekEightPhrases = [
+//   `The Golden Rule: Seperation of Concerns
+//   👑👑👑`,
+//   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   "Don't know? Go to the MDN!",
+//   "Only ONE id with the same value per document!",
+//   "Make good content decisions",
+//   "Computers do what you tell them to do",
+//   "Variables are buckets",
+//   "binary, upload, boom 👽",
+//   `Syntax:
+//   Spelling and Grammar rules`,
+//   "Declaration and then Assignment",
+//   "Everyone freaks out about operators",
+//   // "if(conditions mentioned){click!}",
+//   "select my query!!!",
+//   "spend Jeff Bezos' money! 💸",
+//   "Not that kind of stream, folx!",
+//   "modulus % finds the remainder",
+//   "BEWARE reassignment <br> ( = ) vs. comparison <br> ( ==/=== )",
+//   "functions are the building blocks of a program 🧱",
+//   "functions can take parameters and pass arguments",
+//   "multiple conditions? Use && or ||",
+//   "Leon reveals house-specific office hours!",
+//   "Beware the trough of sorrow!",
+//   "TURN IT UP!",
+//   "Get a paid client by Feb 2!",
+//   "Welcome back, we missed you! <br> Have a free space for being awesome! 😊"
 // ];

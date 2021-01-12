@@ -16,8 +16,8 @@ const phraseBank = [
   "one job please! 💰",
   // "community goal met 🎉",
   "Bob gets mention by Leon or slides",
-  // "Dylan spits hot fire 🔥🔥",
-  "The Bachelor 🌹",
+  "Dylan spits hot fire 🔥🔥",
+  // "The Bachelor 🌹",
   "Bring It On 📣",
   "Blame the nuns!",
   "Domino's 🍕",
@@ -28,5 +28,5 @@ const phraseBank = [
   "You messed up",
   "Leon is amused by bootieliquor's name",
   "spend Jeff Bezos' money! 💸",
-  "Not that kind of stream, folx!",
+  "Not that kind of stream, folx!"
 ];
