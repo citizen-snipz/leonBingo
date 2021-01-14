@@ -2,17 +2,12 @@ const weeklyPhrases = [
   `The Golden Rule: Seperation of Concerns
   👑👑👑`,
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
-  // "Don't know? Go to the MDN!",
-  // "Only ONE id with the same value per document!",
   "Make good content decisions",
   "Computers do what you tell them to do",
   "Variables are buckets",
-  // "binary, upload, boom 👽",
   `Syntax:
   Spelling and Grammar rules`,
   "Declaration and then Assignment",
-  "Everyone freaks out about operators",
-  // "if(conditions mentioned){click!}",
   "select my query!!!",
   "spend Jeff Bezos' money! 💸",
   "Not that kind of stream, folx!",
@@ -21,13 +16,21 @@ const weeklyPhrases = [
   "functions are the building blocks of a program 🧱",
   "functions can take parameters and pass arguments",
   "multiple conditions? Use && or ||",
-  // "Beware the trough of sorrow!",
   "TURN IT UP!",
   "Get a paid client by Feb 2!",
   "Happy birthday, Alissa! 🎂",
   "Arrays are like Bill Gates' toaster",
   "Arrays are 0 indexed!",
-  "Arrays have methods - check out the MDN! 🔎"
+  "Arrays have methods - check out the MDN! 🔎",
+  "You can update an array or object with bracket[notation]",
+  "the forEach method lets us iterate through an array",
+  "objects are a collection of variables and functions",
+  "can you describe a stopwatch?",
+  "constructor functions help us create uniform objects",
+  "javascript classes: syntactic sugar for our constructors",
+  "use fetch() to access an API",
+  "we use query paramaters to tell an API what we want",
+  "DOG PICTURES",
 ];
 /*
 const weekOnePhrases = [
