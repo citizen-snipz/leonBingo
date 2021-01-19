@@ -1,7 +1,7 @@
 const weeklyPhrases = [
-  `The Golden Rule: Seperation of Concerns
-  👑👑👑`,
-  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+  // `The Golden Rule: Seperation of Concerns
+  // 👑👑👑`,
+  // 'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   // "Don't know? Go to the MDN!",
   // "Only ONE id with the same value per document!",
   "Make good content decisions",
@@ -21,13 +21,20 @@ const weeklyPhrases = [
   "functions are the building blocks of a program 🧱",
   "functions can take parameters and pass arguments",
   "multiple conditions? Use && or ||",
-  // "Beware the trough of sorrow!",
+  "Beware the trough of sorrow!",
   "TURN IT UP!",
-  "Get a paid client by Feb 2!",
-  "Happy birthday, Alissa! 🎂",
+  // "Get a paid client by Feb 2!",
   "Arrays are like Bill Gates' toaster",
   "Arrays are 0 indexed!",
-  "Arrays have methods - check out the MDN! 🔎"
+  "Arrays have methods - check out the MDN! 🔎",
+  "Don't forget to take care of your health! 💗",
+  "Objects store 'keyed' collections 🔑",
+  "Properties are attributes and methods are behavior (objects)",
+  "Constructors then Classes",
+  "Classes are like templates for objects!",
+  "APIs are a simple interface for some complex action",
+  "Leon tries to make fetch happen 👚",
+  "You create an object that has four properties and three methods"
 ];
 /*
 const weekOnePhrases = [
@@ -188,4 +195,36 @@ const week3Phrases = [
 //   "TURN IT UP!",
 //   "Get a paid client by Feb 2!",
 //   "Welcome back, we missed you! <br> Have a free space for being awesome! 😊"
+// ];
+
+// const weekNinePhrases = [
+//   `The Golden Rule: Seperation of Concerns
+//   👑👑👑`,
+//   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   // "Don't know? Go to the MDN!",
+//   // "Only ONE id with the same value per document!",
+//   "Make good content decisions",
+//   "Computers do what you tell them to do",
+//   "Variables are buckets",
+//   // "binary, upload, boom 👽",
+//   `Syntax:
+//   Spelling and Grammar rules`,
+//   "Declaration and then Assignment",
+//   "Everyone freaks out about operators",
+//   // "if(conditions mentioned){click!}",
+//   "select my query!!!",
+//   "spend Jeff Bezos' money! 💸",
+//   "Not that kind of stream, folx!",
+//   "modulus % finds the remainder",
+//   "BEWARE reassignment <br> ( = ) vs. comparison <br> ( ==/=== )",
+//   "functions are the building blocks of a program 🧱",
+//   "functions can take parameters and pass arguments",
+//   "multiple conditions? Use && or ||",
+//   // "Beware the trough of sorrow!",
+//   "TURN IT UP!",
+//   "Get a paid client by Feb 2!",
+//   "Happy birthday, Alissa! 🎂",
+//   "Arrays are like Bill Gates' toaster",
+//   "Arrays are 0 indexed!",
+//   "Arrays have methods - check out the MDN! 🔎"
 // ];
