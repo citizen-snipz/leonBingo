@@ -1,18 +1,21 @@
 const weeklyPhrases = [
+<<<<<<< HEAD
   // `The Golden Rule: Seperation of Concerns
   // 👑👑👑`,
   // 'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   // "Don't know? Go to the MDN!",
   // "Only ONE id with the same value per document!",
+=======
+  `The Golden Rule: Seperation of Concerns
+  👑👑👑`,
+  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+>>>>>>> 995bb2dd6f987ecdb63034e393bd068b6a17cafa
   "Make good content decisions",
   "Computers do what you tell them to do",
   "Variables are buckets",
-  // "binary, upload, boom 👽",
   `Syntax:
   Spelling and Grammar rules`,
   "Declaration and then Assignment",
-  "Everyone freaks out about operators",
-  // "if(conditions mentioned){click!}",
   "select my query!!!",
   "spend Jeff Bezos' money! 💸",
   "Not that kind of stream, folx!",
@@ -21,12 +24,16 @@ const weeklyPhrases = [
   "functions are the building blocks of a program 🧱",
   "functions can take parameters and pass arguments",
   "multiple conditions? Use && or ||",
+<<<<<<< HEAD
   "Beware the trough of sorrow!",
+=======
+>>>>>>> 995bb2dd6f987ecdb63034e393bd068b6a17cafa
   "TURN IT UP!",
   // "Get a paid client by Feb 2!",
   "Arrays are like Bill Gates' toaster",
   "Arrays are 0 indexed!",
   "Arrays have methods - check out the MDN! 🔎",
+<<<<<<< HEAD
   "Don't forget to take care of your health! 💗",
   "Objects store 'keyed' collections 🔑",
   "Properties are attributes and methods are behavior (objects)",
@@ -35,6 +42,17 @@ const weeklyPhrases = [
   "APIs are a simple interface for some complex action",
   "Leon tries to make fetch happen 👚",
   "You create an object that has four properties and three methods"
+=======
+  "You can update an array or object with bracket[notation]",
+  "the forEach method lets us iterate through an array",
+  "objects are a collection of variables and functions",
+  "can you describe a stopwatch?",
+  "constructor functions help us create uniform objects",
+  "javascript classes: syntactic sugar for our constructors",
+  "use fetch() to access an API",
+  "we use query paramaters to tell an API what we want",
+  "DOG PICTURES",
+>>>>>>> 995bb2dd6f987ecdb63034e393bd068b6a17cafa
 ];
 /*
 const weekOnePhrases = [
