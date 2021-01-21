@@ -4,12 +4,6 @@ const weeklyPhrases = [
   // 'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   // "Don't know? Go to the MDN!",
   // "Only ONE id with the same value per document!",
-  "Make good content decisions",
-  "Computers do what you tell them to do",
-  "Variables are buckets",
-  `Syntax:
-  Spelling and Grammar rules`,
-  "Declaration and then Assignment",
   "select my query!!!",
   "spend Jeff Bezos' money! 💸",
   "Not that kind of stream, folx!",
@@ -27,11 +21,16 @@ const weeklyPhrases = [
   "Don't forget to take care of your health! 💗",
   "Objects store 'keyed' collections 🔑",
   "Properties are attributes and methods are behavior (objects)",
-  "Constructors then Classes",
+  "excuse me sir, this is a car factory",
+  "WHAT IS A STOPWATCH EVEN?",
+  "every data type has a prototype",
+  "EVERYTHING IS AN OBJECT!!1!!1!",
   "Classes are like templates for objects!",
   "APIs are a simple interface for some complex action",
   "Leon tries to make fetch happen 👚",
-  "You create an object that has four properties and three methods"
+  "You create an object that has four properties and three methods",
+  "EVERYBODY! SHOTS! SHOTS! SHOTS!",
+  "'this' is your scope, learn your scope!",
 ];
 /*
 const weekOnePhrases = [
