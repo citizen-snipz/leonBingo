@@ -28,5 +28,6 @@ const phraseBank = [
   "You messed up",
   "Leon is amused by bootieliquor's name",
   "spend Jeff Bezos' money! 💸",
-  "Not that kind of stream, folx!"
+  "Not that kind of stream, folx!",
+  "Join us for office hours! 🕘"
 ];
