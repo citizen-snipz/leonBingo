@@ -25,7 +25,9 @@ const weeklyPhrases = [
   "Make sure to join our Code Wars clan ⚔️",
   "Git Bowl this Saturday!",
   "No class next week! 🗓️",
-  "Leon tells us about the new puppy 🐾"
+  "Leon tells us about the new puppy 🐾",
+  "Contact NASA immediately! 🚀",
+  "War were declared 🃏"
 ];
 /*
 const weekOnePhrases = [
