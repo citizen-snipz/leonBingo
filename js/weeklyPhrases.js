@@ -15,15 +15,17 @@ const weeklyPhrases = [
   "You create an object that has four properties and three methods",
   "EVERYBODY! SHOTS! SHOTS! SHOTS!",
   "'this' is your scope, learn your scope! 🔬",
-  "Live portfolio review Friday @ 6:30EST! 🎙️",
-  "Leon announces the sponsor 🥳",
   "constructors are like factories 🏭",
-  "A prototype is another object that is used as a fallback source of properties",
   "If grandma has a car, you have a car! 🚗 Thanks, inheritance!",
   "Make sure you're using the right query parameters on your API",
   "array.length lets you know how many elements are in your array",
   "APIs are like restaurant menus",
-  "You can use local storage to store data across browser sessions! 💾"
+  "You can use local storage to store data across browser sessions! 💾",
+  "Bob and Nun emotes are here! Thanks, Wil!",
+  "Make sure to join our Code Wars clan ⚔️",
+  "Git Bowl this Saturday!",
+  "No class next week! 🗓️",
+  "Leon tells us about the new puppy 🐾"
 ];
 /*
 const weekOnePhrases = [
@@ -318,4 +320,32 @@ const week3Phrases = [
 //   "git init creates a special folder to hold your commits",
 //   "git add. adds everything to the staging area ➡️",
 //   "don't be afraid to commit 💍"
+// ];
+
+// const weekly13Phrases = [
+//   "Arrays are like Bill Gates' toaster",
+//   "Arrays are 0 indexed!",
+//   "Arrays have methods - check out the MDN! 🔎",
+//   "Don't forget to take care of your health! 💗",
+//   "Objects store 'keyed' collections 🔑",
+//   "Properties are attributes and methods are behavior (objects)",
+//   "excuse me sir, this is a car factory",
+//   "WHAT IS A STOPWATCH EVEN?",
+//   "every data type has a prototype",
+//   "EVERYTHING IS AN OBJECT!!1!!1!",
+//   "Classes are like templates for objects! 🧬",
+//   "APIs are a simple interface for some complex action",
+//   "Leon tries to make fetch happen 👚",
+//   "You create an object that has four properties and three methods",
+//   "EVERYBODY! SHOTS! SHOTS! SHOTS!",
+//   "'this' is your scope, learn your scope! 🔬",
+//   "Live portfolio review Friday @ 6:30EST! 🎙️",
+//   "Leon announces the sponsor 🥳",
+//   "constructors are like factories 🏭",
+//   "A prototype is another object that is used as a fallback source of properties",
+//   "If grandma has a car, you have a car! 🚗 Thanks, inheritance!",
+//   "Make sure you're using the right query parameters on your API",
+//   "array.length lets you know how many elements are in your array",
+//   "APIs are like restaurant menus",
+//   "You can use local storage to store data across browser sessions! 💾"
 // ];

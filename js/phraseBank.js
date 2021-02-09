@@ -30,5 +30,6 @@ const phraseBank = [
   "spend Jeff Bezos' money! 💸",
   "Not that kind of stream, folx!",
   "Join us for office hours! 🕘",
-  "We reach a level 5 hype train! 🚂"
+  "We reach a level 5 hype train! 🚂",
+  "Doggo Cam activated 🐶"
 ];
