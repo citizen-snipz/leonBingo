@@ -15,7 +15,7 @@ const phraseBank = [
   // "Don't call yourself a junior dev 🙅🏿",
   "one job please! 💰",
   "community goal met 🎉",
-  "Bob gets mention by Leon or slides",
+  "Bob gets mentioned by Leon or slides",
   // "Dylan spits hot fire 🔥🔥",
   // "The Bachelor 🌹",
   // "Bring It On 📣",
