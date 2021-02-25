@@ -27,7 +27,7 @@ const phraseBank = [
   "Leon forgets and then remembers that bingo exists",
   "You messed up",
   "Leon is amused by bootieliquor's name",
-  "spend Jeff Bezos' money! 💸",
+  "spend Jeff Bezos'/Andy's money! 💸",
   "Not that kind of stream, folx!",
   "Join us for office hours! 🕘",
   "We reach a level 5 hype train! 🚂",
