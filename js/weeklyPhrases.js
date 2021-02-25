@@ -22,7 +22,8 @@ const weeklyPhrases = [
   "Construct an espresso machine ☕",
   "OOP helps you understand existing code and add your own stuff with ease",
   "Fuse data and functionality into one object with encapsulation, 👶🏾!",
-  "Want to hide details and show essentials? That's abstraction, 👶🏽!"
+  "Want to hide details and show essentials? That's abstraction, 👶🏽!",
+  "WHAT WAS THE REASON?!"
 ];
 /*
 const weekOnePhrases = [
