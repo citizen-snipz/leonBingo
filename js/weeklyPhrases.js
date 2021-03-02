@@ -1,6 +1,4 @@
 const weeklyPhrases = [
-  "Arrays are like Bill Gates' toaster",
-  "Don't forget to take care of your health! 💗",
   "Objects store 'keyed' collections 🔑",
   "Properties are attributes and methods are behavior (objects)",
   "excuse me sir, this is a car factory",
@@ -8,22 +6,23 @@ const weeklyPhrases = [
   // "every data type has a prototype",
   "EVERYTHING IS AN OBJECT!!1!!1!",
   "Classes are like templates for objects! 🧬",
-  "APIs are a simple interface for some complex action",
-  "Leon tries to make fetch happen 👚",
   "'this' is your scope, learn your scope! 🔬",
   "constructors are like factories 🏭",
-  // "If grandma has a car, you have a car! 🚗 Thanks, inheritance!",
-  // "Make sure you're using the right query parameters on your API",
+  "If grandma has a car, you have a car! 🚗 Thanks, inheritance!",
   "Leon tells us about THE MACHINE 🐾",
   "Live Crafting your story this Friday at 6:30pm EST! 📓",
   "Office hours moved to Sunday @ 1pm EST! 🕐",
   "NERD FIGHT!!!! 👊🤓",
   "The constructor keyword is used when you make a class",
-  "Construct an espresso machine ☕",
   "OOP helps you understand existing code and add your own stuff with ease",
   "Fuse data and functionality into one object with encapsulation, 👶🏾!",
   "Want to hide details and show essentials? That's abstraction, 👶🏽!",
-  "WHAT WAS THE REASON?!"
+  "WHAT WAS THE REASON?!",
+  "You successfully create a class and extend it ",
+  "Networking starts up again next week",
+  "Inheritance lets us eliminate redundant code ",
+  "Yo dawg, I heard you like classes",
+  "We can use for...of in place of if/else and switch cases!"
 ];
 /*
 const weekOnePhrases = [
@@ -405,4 +404,32 @@ const week3Phrases = [
 //   "The constructor keyword is used when you make a class",
 //   "You create a detailed Pokemon class",
 //   "You figure out how many rare candies you need to evolve your Pokemon 🍬"
+// ];
+
+// const week15Phrases = [
+//   "Arrays are like Bill Gates' toaster",
+//   "Don't forget to take care of your health! 💗",
+//   "Objects store 'keyed' collections 🔑",
+//   "Properties are attributes and methods are behavior (objects)",
+//   "excuse me sir, this is a car factory",
+//   // "WHAT IS A STOPWATCH EVEN?",
+//   // "every data type has a prototype",
+//   "EVERYTHING IS AN OBJECT!!1!!1!",
+//   "Classes are like templates for objects! 🧬",
+//   "APIs are a simple interface for some complex action",
+//   "Leon tries to make fetch happen 👚",
+//   "'this' is your scope, learn your scope! 🔬",
+//   "constructors are like factories 🏭",
+//   // "If grandma has a car, you have a car! 🚗 Thanks, inheritance!",
+//   // "Make sure you're using the right query parameters on your API",
+//   "Leon tells us about THE MACHINE 🐾",
+//   "Live Crafting your story this Friday at 6:30pm EST! 📓",
+//   "Office hours moved to Sunday @ 1pm EST! 🕐",
+//   "NERD FIGHT!!!! 👊🤓",
+//   "The constructor keyword is used when you make a class",
+//   "Construct an espresso machine ☕",
+//   "OOP helps you understand existing code and add your own stuff with ease",
+//   "Fuse data and functionality into one object with encapsulation, 👶🏾!",
+//   "Want to hide details and show essentials? That's abstraction, 👶🏽!",
+//   "WHAT WAS THE REASON?!"
 // ];

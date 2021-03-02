@@ -6,7 +6,7 @@
 const phraseBank = [
   // "Leon says octothorpe",
   "Leon says 'automagically' \r✨✨✨✨",
-  "Three people finish a challenge before the timer goes off ⏲️",
+  "Five people finish a challenge before the timer goes off ⏲️",
   "Leon mentions the OnlyFans page 🔞 ",
   "Alissa posts a helpful link in chat 🔗",
   "Leon tells us what he is drinking today",
@@ -30,6 +30,6 @@ const phraseBank = [
   "spend Jeff Bezos'/Andy's money! 💸",
   "Not that kind of stream, folx!",
   "Join us for office hours! 🕘",
-  "We reach a level 5 hype train! 🚂",
-  "Doggo Cam activated 🐶"
+  "We reach a level 5 hype train! 🚂"
+  // "Doggo Cam activated 🐶"
 ];
