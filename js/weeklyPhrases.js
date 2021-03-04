@@ -2,9 +2,6 @@ const weeklyPhrases = [
   "Objects store 'keyed' collections 🔑",
   "Properties are attributes and methods are behavior (objects)",
   "excuse me sir, this is a car factory",
-  // "WHAT IS A STOPWATCH EVEN?",
-  // "every data type has a prototype",
-  "EVERYTHING IS AN OBJECT!!1!!1!",
   "Classes are like templates for objects! 🧬",
   "'this' is your scope, learn your scope! 🔬",
   "constructors are like factories 🏭",
@@ -17,12 +14,18 @@ const weeklyPhrases = [
   "OOP helps you understand existing code and add your own stuff with ease",
   "Fuse data and functionality into one object with encapsulation, 👶🏾!",
   "Want to hide details and show essentials? That's abstraction, 👶🏽!",
-  "WHAT WAS THE REASON?!",
+  "Creating new objects based on old ones? That's inheritance, 👶🏿",
+  "Want your code to work with a bunch of different objects? That's polymorphism, 👶🏻",
+  "Polymorphism allows us to override a method in every child class so it will do what we want",
+  "WHAT WAS THE REASON?! 🗣️",
   "You successfully create a class and extend it ",
   "Networking starts up again next week",
   "Inheritance lets us eliminate redundant code ",
   "Yo dawg, I heard you like classes",
-  "We can use for...of in place of if/else and switch cases!"
+  "We can use for...of in place of if/else and switch cases!",
+  "You use encapsulation, abstraction, inheritance, and polymorphism 🦸🏾",
+  "Client deadline March 16th",
+  "Leon shares the big news! 😲"
 ];
 /*
 const weekOnePhrases = [
@@ -432,4 +435,31 @@ const week3Phrases = [
 //   "Fuse data and functionality into one object with encapsulation, 👶🏾!",
 //   "Want to hide details and show essentials? That's abstraction, 👶🏽!",
 //   "WHAT WAS THE REASON?!"
+// ];
+
+// const week15bPhrases = [
+//   "Objects store 'keyed' collections 🔑",
+//   "Properties are attributes and methods are behavior (objects)",
+//   "excuse me sir, this is a car factory",
+//   // "WHAT IS A STOPWATCH EVEN?",
+//   // "every data type has a prototype",
+//   "EVERYTHING IS AN OBJECT!!1!!1!",
+//   "Classes are like templates for objects! 🧬",
+//   "'this' is your scope, learn your scope! 🔬",
+//   "constructors are like factories 🏭",
+//   "If grandma has a car, you have a car! 🚗 Thanks, inheritance!",
+//   "Leon tells us about THE MACHINE 🐾",
+//   "Live Crafting your story this Friday at 6:30pm EST! 📓",
+//   "Office hours moved to Sunday @ 1pm EST! 🕐",
+//   "NERD FIGHT!!!! 👊🤓",
+//   "The constructor keyword is used when you make a class",
+//   "OOP helps you understand existing code and add your own stuff with ease",
+//   "Fuse data and functionality into one object with encapsulation, 👶🏾!",
+//   "Want to hide details and show essentials? That's abstraction, 👶🏽!",
+//   "WHAT WAS THE REASON?!",
+//   "You successfully create a class and extend it ",
+//   "Networking starts up again next week",
+//   "Inheritance lets us eliminate redundant code ",
+//   "Yo dawg, I heard you like classes",
+//   "We can use for...of in place of if/else and switch cases!"
 // ];
