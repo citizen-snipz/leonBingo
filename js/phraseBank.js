@@ -5,8 +5,8 @@
 
 const phraseBank = [
   // "Leon says octothorpe",
-  "Leon says 'automagically' \r✨✨✨✨",
-  "Five people finish a challenge before the timer goes off ⏲️",
+  // "Leon says 'automagically' \r✨✨✨✨",
+  // "Five people finish a challenge before the timer goes off ⏲️",
   "Leon mentions the OnlyFans page 🔞 ",
   "Alissa posts a helpful link in chat 🔗",
   "Leon tells us what he is drinking today",
@@ -20,7 +20,7 @@ const phraseBank = [
   // "The Bachelor 🌹",
   // "Bring It On 📣",
   "Blame the nuns!",
-  "Domino's 🍕",
+  // "Domino's 🍕",
   "Machi/Simba borks in the background 🐕",
   "Leon transforms into Little Leon",
   // "It looks like we're going to run a little late",
