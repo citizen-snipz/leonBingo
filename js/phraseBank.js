@@ -4,15 +4,15 @@
  */
 
 const phraseBank = [
-  // "Leon says octothorpe",
-  // "Leon says 'automagically' \r✨✨✨✨",
-  // "Five people finish a challenge before the timer goes off ⏲️",
+  "Leon says octothorpe",
+  "Leon says 'automagically' \r✨✨✨✨",
+  "Five people finish a challenge before the timer goes off ⏲️",
   "Leon mentions the OnlyFans page 🔞 ",
   "Alissa posts a helpful link in chat 🔗",
   "Leon tells us what he is drinking today",
   "Hydrate! 🚰",
   "Posture Check!",
-  // "Don't call yourself a junior dev 🙅🏿",
+  "Don't call yourself a junior dev 🙅🏿",
   "one job please! 💰",
   // "community goal met 🎉",
   "Bob gets mentioned by Leon or slides",
@@ -30,6 +30,7 @@ const phraseBank = [
   "spend Jeff Bezos'/Andy's money! 💸",
   "Not that kind of stream, folx!",
   "Join us for office hours! 🕘",
-  "We reach a level 5 hype train! 🚂"
+  "We reach a level 5 hype train! 🚂",
+  "Party Mode Activated! 🎊"
   // "Doggo Cam activated 🐶"
 ];
