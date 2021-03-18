@@ -4,6 +4,7 @@ const weeklyPhrases = [
   "Office hours Sunday @ 1pm EST! 🕐",
   "One coffee chat this week! ☕",
   "NERD FIGHT!!!! 👊🤓",
+  "Get in that spaced repetition!",
   "You make an API request using async await",
   "We were using APIs all along! 🤯",
   "Don't forget to sign up for the Stream Team! 📹",
@@ -15,12 +16,20 @@ const weeklyPhrases = [
   "Higher Order Functions: function that takes another function as an argument",
   "A Callback is a function that has be passed as an argument ☎️",
   "Promises help us avoid Callback Hell 😈",
-  "Await waits for an async process to complete inside an Async Function",
+  "Await waits for an async process to complete inside an Async Function ⏳",
   "JS is sandboxed in the browser",
   "Servers need disk access and network access 🌐",
   "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine ⚙️",
   "Get your custom modules at NPM 📦",
-  "You build your very own simple Node server! 🛠️"
+  "You build your very own simple Node server! 🛠️",
+  "The JavaScript is a lie! 🤥",
+  ".then() is a promise object that runs after the promise 'resolves'",
+  "Queues are FIFO (first in first out) structures",
+  "Callstack is a LIFO (last in first out) structure 🥞",
+  "You just got GOT!",
+  "JS is a language that can only do what the hosting environment allows 🌱",
+  "The same 💩 that lets you run JS in the browser can be used to run JS on servers, desktops, etc.",
+  "Clean up your back end! 🧼"
 ];
 /*
 const weekOnePhrases = [
@@ -488,7 +497,7 @@ const week3Phrases = [
 //   "Client deadline March 16th",
 //   "Leon shares the big news! 😲"
 // ];
-// const weeklyPhrases = [
+// const week17aPhrases = [
 //   "Leon tells us about THE MACHINE 🐾",
 //   "Live Crafting your story this Friday at 6:30pm EST! 📓",
 //   "Review class this Sunday @ 1pm EST! 🕐",
@@ -511,4 +520,28 @@ const week3Phrases = [
 //   "Recruiters love 🟩",
 //   "Research the company's process BEFORE the interview",
 //   "Follow 50 engineers where you will be applying"
+// ];
+// const week17bPhrases = [
+//   "Leon tells us about THE MACHINE 🐾",
+//   "Live PREP class this Friday at 6:30pm EST! 📓",
+//   "Office hours Sunday @ 1pm EST! 🕐",
+//   "One coffee chat this week! ☕",
+//   "NERD FIGHT!!!! 👊🤓",
+//   "You make an API request using async await",
+//   "We were using APIs all along! 🤯",
+//   "Don't forget to sign up for the Stream Team! 📹",
+//   "Submit your checklist, 100 Hours Project, and Code Wars",
+//   "JavaScript is single-threaded 🧵",
+//   "Asyn allows us to continue using the app while operations are processed asyncronously",
+//   "DOM is an API used to manipulate HTML/XML documents",
+//   "We handle Web API responses with callbacks, promises, and async/await 📮",
+//   "Higher Order Functions: function that takes another function as an argument",
+//   "A Callback is a function that has be passed as an argument ☎️",
+//   "Promises help us avoid Callback Hell 😈",
+//   "Await waits for an async process to complete inside an Async Function",
+//   "JS is sandboxed in the browser",
+//   "Servers need disk access and network access 🌐",
+//   "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine ⚙️",
+//   "Get your custom modules at NPM 📦",
+//   "You build your very own simple Node server! 🛠️"
 // ];
