@@ -31,6 +31,7 @@ const phraseBank = [
   "Not that kind of stream, folx!",
   "Join us for office hours! 🕘",
   "We reach a level 5 hype train! 🚂",
-  "Party Mode Activated! 🎊"
-  // "Doggo Cam activated 🐶"
+  "Party Mode Activated! 🎊",
+  // "Doggo Cam activated 🐶",
+  "You're a full stack dev now! 🏆"
 ];

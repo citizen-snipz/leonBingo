@@ -4,24 +4,20 @@ const weeklyPhrases = [
   "Office hours Sunday @ 1pm EST! 🕐",
   "One coffee chat this week! ☕",
   "Microsoft sponsored stream next Tuesday!",
-  "NERD FIGHT!!!! 👊🤓",
-  "Get in that spaced repetition!",
-  "JavaScript is single-threaded 🧵",
-  "Higher Order Functions: function that takes another function as an argument",
-  "A Callback is a function that has be passed as an argument ☎️",
-  "Servers need disk access and network access 🌐",
+  "Servers need disk access(FS) and network access(HTTP) 🌐",
   "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine ⚙️",
   "Get your custom modules at NPM 📦",
   "You build your very own simple Node server! 🛠️",
-  "Queues are FIFO (first in first out) structures",
-  "Callstack is a LIFO (last in first out) structure 🥞",
-  "You just got GOT!",
-  "JS is a language that can only do what the hosting environment allows 🌱",
-  "The same 💩 that lets you run JS in the browser can be used to run JS on servers, desktops, etc.",
   "Clean up your back end! 🧼",
   "CRUD: Create(POST), Read(GET), Update(PUT), Delete(DELETE)",
-  "Express is a framework for Node.js",
-  "Follow the key steps when making your API "
+  "Express is a framework for Node.js 🖼️",
+  "Follow the key steps when making your API 🔑",
+  "How does the internet work?",
+  "The developer creates the API on the server and allows the clinet to talk to it. 💭",
+  "MongoDB stores your collections 🗄️",
+  "EJS is a simple templating language that lets you generate HTML markup with plain JavaScript",
+  "Push your server to Heroku",
+  "Start prepping THE BANK! 🏦"
 ];
 /*
 const weekOnePhrases = [
@@ -570,4 +566,30 @@ const week3Phrases = [
 //   "JS is a language that can only do what the hosting environment allows 🌱",
 //   "The same 💩 that lets you run JS in the browser can be used to run JS on servers, desktops, etc.",
 //   "Clean up your back end! 🧼"
+// ];
+
+// const weeklyPhrases = [
+//   "Leon tells us about THE MACHINE 🐾",
+//   "Live Tech Interveiw class this Friday at 6:30pm EST! 📓",
+//   "Office hours Sunday @ 1pm EST! 🕐",
+//   "One coffee chat this week! ☕",
+//   "Microsoft sponsored stream next Tuesday!",
+//   "NERD FIGHT!!!! 👊🤓",
+//   "Get in that spaced repetition!",
+//   "JavaScript is single-threaded 🧵",
+//   "Higher Order Functions: function that takes another function as an argument",
+//   "A Callback is a function that has be passed as an argument ☎️",
+//   "Servers need disk access and network access 🌐",
+//   "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine ⚙️",
+//   "Get your custom modules at NPM 📦",
+//   "You build your very own simple Node server! 🛠️",
+//   "Queues are FIFO (first in first out) structures",
+//   "Callstack is a LIFO (last in first out) structure 🥞",
+//   "You just got GOT!",
+//   "JS is a language that can only do what the hosting environment allows 🌱",
+//   "The same 💩 that lets you run JS in the browser can be used to run JS on servers, desktops, etc.",
+//   "Clean up your back end! 🧼",
+//   "CRUD: Create(POST), Read(GET), Update(PUT), Delete(DELETE)",
+//   "Express is a framework for Node.js",
+//   "Follow the key steps when making your API "
 // ];
