@@ -2,6 +2,7 @@ const weeklyPhrases = [
   "Leon tells us about THE MACHINE 🐾",
   "Project Night this Friday at 6:30pm EST! 📓",
   "Office hours Sunday @ 1pm EST! 🕐",
+  "CRUD review Monday @ 6:30EST",
   "One coffee chat this week! ☕",
   "Microsoft sponsored stream next Tuesday!",
   "Servers need disk access(FS) and network access(HTTP) 🌐",
@@ -17,7 +18,9 @@ const weeklyPhrases = [
   "MongoDB stores your collections 🗄️",
   "EJS is a simple templating language that lets you generate HTML markup with plain JavaScript",
   "Push your server to Heroku",
-  "Start prepping THE BANK! 🏦"
+  "Start prepping THE BANK! 🏦",
+  "It's not too late!",
+  "Make a .env file and .gitignore to protect sensitive data"
 ];
 /*
 const weekOnePhrases = [
@@ -597,6 +600,27 @@ const week3Phrases = [
 // const week19Phrases = [
 //   "Leon tells us about THE MACHINE 🐾",
 //   "Live Tech Interveiw class this Friday at 6:30pm EST! 📓",
+//   "Office hours Sunday @ 1pm EST! 🕐",
+//   "One coffee chat this week! ☕",
+//   "Microsoft sponsored stream next Tuesday!",
+//   "Servers need disk access(FS) and network access(HTTP) 🌐",
+//   "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine ⚙️",
+//   "Get your custom modules at NPM 📦",
+//   "You build your very own simple Node server! 🛠️",
+//   "Clean up your back end! 🧼",
+//   "CRUD: Create(POST), Read(GET), Update(PUT), Delete(DELETE)",
+//   "Express is a framework for Node.js 🖼️",
+//   "Follow the key steps when making your API 🔑",
+//   "How does the internet work?",
+//   "The developer creates the API on the server and allows the clinet to talk to it. 💭",
+//   "MongoDB stores your collections 🗄️",
+//   "EJS is a simple templating language that lets you generate HTML markup with plain JavaScript",
+//   "Push your server to Heroku",
+//   "Start prepping THE BANK! 🏦"
+// ];
+// const week19aPhrases = [
+//   "Leon tells us about THE MACHINE 🐾",
+//   "Project Night this Friday at 6:30pm EST! 📓",
 //   "Office hours Sunday @ 1pm EST! 🕐",
 //   "One coffee chat this week! ☕",
 //   "Microsoft sponsored stream next Tuesday!",

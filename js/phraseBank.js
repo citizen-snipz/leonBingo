@@ -4,7 +4,7 @@
  */
 
 const phraseBank = [
-  "Leon says octothorpe",
+  // "Leon says octothorpe",
   "Leon says 'automagically' \r✨✨✨✨",
   // "Five people finish a challenge before the timer goes off ⏲️",
   "Leon mentions the OnlyFans page 🔞 ",
