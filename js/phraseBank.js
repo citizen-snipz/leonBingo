@@ -16,7 +16,7 @@ const phraseBank = [
   "one job please! 💰",
   // "community goal met 🎉",
   "Bob gets mentioned by Leon or slides",
-  "Dylan spits hot fire 🔥🔥",
+  // "Dylan spits hot fire 🔥🔥",
   // "The Bachelor 🌹",
   // "Bring It On 📣",
   "Blame the nuns!",
