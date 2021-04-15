@@ -4,20 +4,20 @@ const weeklyPhrases = [
   "Get in that active recall and spaced repetition! 🔁",
   "7 people from 100 Devs already have a job! 🤩",
   "Microsoft Azure is a real one 🪟",
-  "CRUD: Create(POST), Read(GET), Update(PUT), Delete(DELETE)",
   "Follow the key steps when making your Passport/Express app 🔑",
-  "How does the internet work? 🌐",
-  "The developer creates the API on the server and allows the clinet to talk to it. 💭",
   "MongoDB stores your collections 🗄️",
-  "EJS is a simple templating language that lets you generate HTML markup with plain JavaScript",
   "It's not too late! ⏳",
   "Authentification = ability for users to login ✅",
-  "Microsoft Identity helps make signing in to your web apps easier",
+  "Microsoft Identity helps make sure you're not getting GOT by cyber security 🛡️",
   "Azure Active Directory B2C lets you manage access on customer facing apps 🖥️",
   "Mongoose provides a schema-based solution to model your app data",
   "Models = fancy constructors complied from Schema definitions 🖼️",
   "Passport = auth middleware for Node 🛂",
-  "MVC is a way to structure and organize our apps 🗂️"
+  "MVC is a way to structure and organize our apps 🗂️",
+  "We don't get got, we go get 😎",
+  "You sign up for Microsoft 365 Developer Program (free!)",
+  "Passport has strategies 💡",
+  "Cookies store a session id in the user's browser to remember preferences 🍪"
 ];
 /*
 const weekOnePhrases = [
@@ -659,4 +659,25 @@ const week3Phrases = [
 //   "Start prepping THE BANK! 🏦",
 //   "It's not too late!",
 //   "Make a .env file and .gitignore to protect sensitive data"
+// ];
+// const week20bPhrases = [
+//   "Leon tells us about THE MACHINE 🐾",
+//   "Don't forget to take care of yourself! 🛀",
+//   "Get in that active recall and spaced repetition! 🔁",
+//   "7 people from 100 Devs already have a job! 🤩",
+//   "Microsoft Azure is a real one 🪟",
+//   "CRUD: Create(POST), Read(GET), Update(PUT), Delete(DELETE)",
+//   "Follow the key steps when making your Passport/Express app 🔑",
+//   "How does the internet work? 🌐",
+//   "The developer creates the API on the server and allows the clinet to talk to it. 💭",
+//   "MongoDB stores your collections 🗄️",
+//   "EJS is a simple templating language that lets you generate HTML markup with plain JavaScript",
+//   "It's not too late! ⏳",
+//   "Authentification = ability for users to login ✅",
+//   "Microsoft Identity helps make signing in to your web apps easier",
+//   "Azure Active Directory B2C lets you manage access on customer facing apps 🖥️",
+//   "Mongoose provides a schema-based solution to model your app data",
+//   "Models = fancy constructors complied from Schema definitions 🖼️",
+//   "Passport = auth middleware for Node 🛂",
+//   "MVC is a way to structure and organize our apps 🗂️"
 // ];

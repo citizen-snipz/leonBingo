@@ -32,6 +32,6 @@ const phraseBank = [
   "Join us for office hours! 🕘",
   "We reach a level 5 hype train! 🚂",
   "Party Mode Activated! 🎊",
-  // "Doggo Cam activated 🐶",
+  "Doggo Cam activated 🐶",
   "You're a full stack dev now! 🏆"
 ];
