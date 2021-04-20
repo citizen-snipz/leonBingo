@@ -1,23 +1,17 @@
 const weeklyPhrases = [
   "Leon tells us about THE MACHINE 🐾",
+  "Backend review class Sunday @ 1pm EST",
+  "Stream & Blog team meeting @ 6:30pm EST",
+  "Team project next week! 🤝",
+  "Keep up with your networking 💬",
+  "100 hours project due Tuesday 6/1",
+  "Checklist due Tuesday 4/27 ✅",
+  "Team project due Tuesday 5/4",
+  "Hitlist due Tuesday 5/11 🎯",
   "Don't forget to take care of yourself! 🛀",
-  "Get in that active recall and spaced repetition! 🔁",
-  "7 people from 100 Devs already have a job! 🤩",
-  "Microsoft Azure is a real one 🪟",
-  "Follow the key steps when making your Passport/Express app 🔑",
-  "MongoDB stores your collections 🗄️",
-  "It's not too late! ⏳",
-  "Authentification = ability for users to login ✅",
-  "Microsoft Identity helps make sure you're not getting GOT by cyber security 🛡️",
-  "Azure Active Directory B2C lets you manage access on customer facing apps 🖥️",
-  "Mongoose provides a schema-based solution to model your app data",
-  "Models = fancy constructors complied from Schema definitions 🖼️",
-  "Passport = auth middleware for Node 🛂",
-  "MVC is a way to structure and organize our apps 🗂️",
-  "We don't get got, we go get 😎",
-  "You sign up for Microsoft 365 Developer Program (free!)",
-  "Passport has strategies 💡",
-  "Cookies store a session id in the user's browser to remember preferences 🍪"
+  "Keep pushing every day 🟩",
+  "10 premium job applications due Tuesday 6/15 📝",
+  "Prep the bank 🏦"
 ];
 /*
 const weekOnePhrases = [
@@ -680,4 +674,25 @@ const week3Phrases = [
 //   "Models = fancy constructors complied from Schema definitions 🖼️",
 //   "Passport = auth middleware for Node 🛂",
 //   "MVC is a way to structure and organize our apps 🗂️"
+// ];
+// const weeklyPhrases = [
+//   "Leon tells us about THE MACHINE 🐾",
+//   "Don't forget to take care of yourself! 🛀",
+//   "Get in that active recall and spaced repetition! 🔁",
+//   "7 people from 100 Devs already have a job! 🤩",
+//   "Microsoft Azure is a real one 🪟",
+//   "Follow the key steps when making your Passport/Express app 🔑",
+//   "MongoDB stores your collections 🗄️",
+//   "It's not too late! ⏳",
+//   "Authentification = ability for users to login ✅",
+//   "Microsoft Identity helps make sure you're not getting GOT by cyber security 🛡️",
+//   "Azure Active Directory B2C lets you manage access on customer facing apps 🖥️",
+//   "Mongoose provides a schema-based solution to model your app data",
+//   "Models = fancy constructors complied from Schema definitions 🖼️",
+//   "Passport = auth middleware for Node 🛂",
+//   "MVC is a way to structure and organize our apps 🗂️",
+//   "We don't get got, we go get 😎",
+//   "You sign up for Microsoft 365 Developer Program (free!)",
+//   "Passport has strategies 💡",
+//   "Cookies store a session id in the user's browser to remember preferences 🍪"
 // ];

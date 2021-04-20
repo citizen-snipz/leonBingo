@@ -33,5 +33,9 @@ const phraseBank = [
   "We reach a level 5 hype train! 🚂",
   "Party Mode Activated! 🎊",
   "Doggo Cam activated 🐶",
-  "You're a full stack dev now! 🏆"
+  "You're a full stack dev now! 🏆",
+  "You got got!",
+  "Someone redeems soundboard alert 🔊",
+  "We don't get got, we go get!",
+  "First tryyy! 👍🏿"
 ];
