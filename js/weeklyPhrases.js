@@ -4,14 +4,15 @@ const weeklyPhrases = [
   "Stream & Blog team meeting @ 6:30pm EST",
   "Team project next week! 🤝",
   "Keep up with your networking 💬",
-  "100 hours project due Tuesday 6/1",
   "Checklist due Tuesday 4/27 ✅",
   "Team project due Tuesday 5/4",
-  "Hitlist due Tuesday 5/11 🎯",
-  "Don't forget to take care of yourself! 🛀",
+  "You fill out Leon's survey",
   "Keep pushing every day 🟩",
   "10 premium job applications due Tuesday 6/15 📝",
-  "Prep the bank 🏦"
+  "Prep the bank 🏦",
+  "I ain't here to play 🚫🤾‍♀️",
+  "Comment everything! ✍🏾",
+  "Set up Replit for your team project 🚧"
 ];
 /*
 const weekOnePhrases = [
@@ -695,4 +696,19 @@ const week3Phrases = [
 //   "You sign up for Microsoft 365 Developer Program (free!)",
 //   "Passport has strategies 💡",
 //   "Cookies store a session id in the user's browser to remember preferences 🍪"
+// ];
+// const weeklyPhrases = [
+//   "Leon tells us about THE MACHINE 🐾",
+//   "Backend review class Sunday @ 1pm EST",
+//   "Stream & Blog team meeting @ 6:30pm EST",
+//   "Team project next week! 🤝",
+//   "Keep up with your networking 💬",
+//   "100 hours project due Tuesday 6/1",
+//   "Checklist due Tuesday 4/27 ✅",
+//   "Team project due Tuesday 5/4",
+//   "Hitlist due Tuesday 5/11 🎯",
+//   "Don't forget to take care of yourself! 🛀",
+//   "Keep pushing every day 🟩",
+//   "10 premium job applications due Tuesday 6/15 📝",
+//   "Prep the bank 🏦"
 // ];
