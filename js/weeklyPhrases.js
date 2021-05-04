@@ -8,7 +8,6 @@ const weeklyPhrases = [
   "Follow the key steps when making your Passport/Express app 🔑",
   "MongoDB stores your collections 🗄️",
   "Authentification = ability for users to login ✅",
-  "Microsoft Identity helps make sure you're not getting GOT by cyber security 🛡️",
   "Azure Active Directory B2C lets you manage access on customer facing apps 🖥️",
   "Mongoose provides a schema-based solution to model your app data",
   "Models = fancy constructors complied from Schema definitions 🖼️",
