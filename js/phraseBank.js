@@ -19,7 +19,7 @@ const phraseBank = [
   // "Dylan spits hot fire 🔥🔥",
   // "The Bachelor 🌹",
   // "Bring It On 📣",
-  // "Blame the nuns!",
+  "Blame the nuns!",
   // "Domino's 🍕",
   "Machi/Simba borks in the background 🐕",
   "Leon transforms into Little Leon",
@@ -31,11 +31,11 @@ const phraseBank = [
   "Not that kind of stream, folx!",
   "Join us for office hours! 🕘",
   "We reach a level 5 hype train! 🚂",
-  // "Party Mode Activated! 🎊",
+  "Party Mode Activated! 🎊",
   "Doggo Cam activated 🐶",
   // "You're a full stack dev now! 🏆",
   "You got got!",
   "Someone redeems soundboard alert 🔊",
-  "We don't get got, we go get!"
-  // "First tryyy! 👍🏿"
+  "We don't get got, we go get!",
+  "First tryyy! 👍🏿"
 ];
