@@ -7,6 +7,7 @@ const weeklyPhrases = [
   'Sign up for your 1-on-1!',
   "Don't forget about The Checklist ☑️",
   'Craft your story 📖',
+  'Your HITLIST is your best friend 🎯',
   'Use the cheat codes that Leon gave us! 🎮',
   "If you're not a designer, USE A TEMPLATE!",
   'Keep pushing every day 🟩',
