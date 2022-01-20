@@ -23,7 +23,7 @@ const phraseBank = [
   // "Domino's 🍕",
   'Machi/Simba borks in the background 🐕',
   'Leon transforms into Little Leon',
-  // "It looks like we're going to run a little late",
+  "It looks like we're going to run a little late",
   // "Leon forgets and then remembers that bingo exists",
   // "You messed up",
   // "Leon is amused by bootieliquor's name",
@@ -37,5 +37,6 @@ const phraseBank = [
   'Someone redeems soundboard alert 🔊',
   'First tryyy! 👍🏿',
   "We don't get got, we go get 😎",
-  'Leon gets spicy 🌶️'
+  'Leon gets spicy 🌶️',
+  "We're going to finish early today"
 ];

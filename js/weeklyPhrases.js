@@ -1,27 +1,30 @@
 const weeklyPhrases = [
+  'You remembered to check in on Twitter',
+  'You responded in a discord message thread 🧵',
+  'Use keybr to increase typing speed! ⌨️',
+  'Go wide, NOT deep! ↔️',
   'The Golden Rule 👑👑👑',
   'What is the internet? 💻 🖥️',
-  'angry Shia LaBeouf',
-  'Hello world!',
-  "Size doesn't matter, okay? OKAY???",
-  'CSS is about <em>style</em>',
-  'Ordered List',
-  'Unordered List',
+  'CSS is about <em>style</em> 💅🏿',
+  'CSS declarations go inside curly braces {}',
+  'CSS is read from top to bottom',
+  'Use a separate CSS file and link in your <head> ',
+  "Don't know? Go to the MDN!",
+  'parent > child to target direct descendents 👶🏽',
+  'Only one #ID with the same value per document!',
+  '.class is for multiple elements',
   `Syntax:
      Spelling and Grammar rules`,
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
-  'Resetting the Forgetting Curve 😱',
-  'What should go in the head tag?',
+  'Resetting the Forgetting Curve 📉',
+  'What should go in the head tag? 🗣️',
   'anchor tags are for links ⚓',
+  '#specificity .matters',
+  'Someone figures out the specificity before you even start',
   'Progressive Enhancement',
-  'Make sure to finish Learning How to Learn on Coursera!',
+  'You finished Learning How to Learn on Coursera 🧠',
   "Don't forget to agree to the rules on Discord ✅",
-  "Don't ask to ask 🙋🏾‍♂️",
-  'Use threads in help channels 🧵',
-  'Is this the most supportive message I can send in this moment? 👐',
-  'Trough of Sorrow 😭',
-  'You practiced active recall and space repetition ⏳',
-  'NERD FIGHT! 🤓'
+  'You practiced active recall and space repetition ⏳'
 ];
 /*
 const weekOnePhrases = [
@@ -796,4 +799,33 @@ const week3Phrases = [
 //   'O(n) = linear, ex: loop ➰',
 //   'O(log n) = logarithmic, ex: divide and conquer ➗',
 //   'O(1) = constant, ex: index lookup 📇'
+// ];
+
+// ***COHORT 2***
+
+// JAN 18 2022
+// const weeklyPhrases = [
+//   'The Golden Rule 👑👑👑',
+//   'What is the internet? 💻 🖥️',
+//   'angry Shia LaBeouf',
+//   'Hello world!',
+//   "Size doesn't matter, okay? OKAY???",
+//   'CSS is about <em>style</em>',
+//   'Ordered List',
+//   'Unordered List',
+//   `Syntax:
+//      Spelling and Grammar rules`,
+//   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   'Resetting the Forgetting Curve 😱',
+//   'What should go in the head tag?',
+//   'anchor tags are for links ⚓',
+//   'Progressive Enhancement',
+//   'Make sure to finish Learning How to Learn on Coursera!',
+//   "Don't forget to agree to the rules on Discord ✅",
+//   "Don't ask to ask 🙋🏾‍♂️",
+//   'Use threads in help channels 🧵',
+//   'Is this the most supportive message I can send in this moment? 👐',
+//   'Trough of Sorrow 😭',
+//   'You practiced active recall and space repetition ⏳',
+//   'NERD FIGHT! 🤓'
 // ];
