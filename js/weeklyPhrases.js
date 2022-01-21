@@ -2,7 +2,7 @@ const weeklyPhrases = [
   'You remembered to check in on Twitter',
   'You responded in a discord message thread 🧵',
   'Use keybr to increase typing speed! ⌨️',
-  'Go wide, NOT deep! ↔️',
+  'Go deep, NOT wide! ↕️',
   'The Golden Rule 👑👑👑',
   'What is the internet? 💻 🖥️',
   'CSS is about <em>style</em> 💅🏿',
