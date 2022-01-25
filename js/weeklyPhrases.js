@@ -1,5 +1,8 @@
 const weeklyPhrases = [
-  'You remembered to check in on Twitter',
+  'You submitted your HTML homework to Glitch',
+  'Alumni Twitter Space this Friday 1.28 @ 6pm EST 🎓',
+  "You're keeping up with Anki 🗃️",
+  "Y'all nasty with your vomit code 🤮",
   'You responded in a discord message thread 🧵',
   'Use keybr to increase typing speed! ⌨️',
   'Go deep, NOT wide! ↕️',
@@ -7,7 +10,7 @@ const weeklyPhrases = [
   'What is the internet? 💻 🖥️',
   'CSS is about <em>style</em> 💅🏿',
   'CSS declarations go inside curly braces {}',
-  'CSS is read from top to bottom',
+  'CSS is read from top to bottom (cascade)',
   'Use a separate CSS file and link in your <head> ',
   "Don't know? Go to the MDN!",
   'parent > child to target direct descendents 👶🏽',
@@ -17,14 +20,13 @@ const weeklyPhrases = [
      Spelling and Grammar rules`,
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   'Resetting the Forgetting Curve 📉',
-  'What should go in the head tag? 🗣️',
-  'anchor tags are for links ⚓',
   '#specificity .matters',
   'Someone figures out the specificity before you even start',
-  'Progressive Enhancement',
   'You finished Learning How to Learn on Coursera 🧠',
-  "Don't forget to agree to the rules on Discord ✅",
-  'You practiced active recall and space repetition ⏳'
+  'You practiced active recall and space repetition ⏳',
+  'The Box Model has four properties 📦',
+  'We all float down here! 🎈',
+  'You survive 15 minutes of PAIN ⚡'
 ];
 /*
 const weekOnePhrases = [
@@ -828,4 +830,35 @@ const week3Phrases = [
 //   'Trough of Sorrow 😭',
 //   'You practiced active recall and space repetition ⏳',
 //   'NERD FIGHT! 🤓'
+// ];
+
+// JAN 25 2022
+
+// const weeklyPhrases = [
+//   'You remembered to check in on Twitter',
+//   'You responded in a discord message thread 🧵',
+//   'Use keybr to increase typing speed! ⌨️',
+//   'Go deep, NOT wide! ↕️',
+//   'The Golden Rule 👑👑👑',
+//   'What is the internet? 💻 🖥️',
+//   'CSS is about <em>style</em> 💅🏿',
+//   'CSS declarations go inside curly braces {}',
+//   'CSS is read from top to bottom',
+//   'Use a separate CSS file and link in your <head> ',
+//   "Don't know? Go to the MDN!",
+//   'parent > child to target direct descendents 👶🏽',
+//   'Only one #ID with the same value per document!',
+//   '.class is for multiple elements',
+//   `Syntax:
+//      Spelling and Grammar rules`,
+//   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   'Resetting the Forgetting Curve 📉',
+//   'What should go in the head tag? 🗣️',
+//   'anchor tags are for links ⚓',
+//   '#specificity .matters',
+//   'Someone figures out the specificity before you even start',
+//   'Progressive Enhancement',
+//   'You finished Learning How to Learn on Coursera 🧠',
+//   "Don't forget to agree to the rules on Discord ✅",
+//   'You practiced active recall and space repetition ⏳'
 // ];
