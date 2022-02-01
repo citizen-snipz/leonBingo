@@ -1,10 +1,12 @@
 const weeklyPhrases = [
-  'You submitted your HTML homework to Glitch',
-  'Alumni Twitter Space this Friday 1/28 @ 6pm EST 🎓',
+  'You submitted your Study Community Survey',
+  'Get ready to network! 🕸️',
+  "Treat networking like you're making friends first 🤝",
+  'Research events/conferences to engage with folx in tech',
+  'Follow up: Meet ➡️ Email ➡️ LinkedIn ➡️ Twitter',
+  'Use the sheeeet to track netwoking 📝',
   "You're keeping up with Anki 🗃️",
-  'Get some sleep! 💤',
   'You responded in a discord message thread 🧵',
-  'Use keybr to increase typing speed! ⌨️',
   'Go deep, NOT wide! ↕️',
   'The Golden Rule 👑👑👑',
   'What is the internet? 💻 🖥️',
@@ -16,20 +18,19 @@ const weeklyPhrases = [
   'parent > child to target direct descendents 👶🏽',
   'Only one #ID with the same value per document!',
   '.class is for multiple elements',
-  `Syntax:
-     Spelling and Grammar rules`,
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   'Resetting the Forgetting Curve 📉',
   '#specificity .matters',
-  'Someone figures out the specificity before you even start',
-  'You finished Learning How to Learn on Coursera 🧠',
   'You practiced active recall and space repetition ⏳',
   'The Box Model has four properties 📦',
   'We all float down here! 🎈',
-  'You survive 15 minutes of PAIN ⚡',
-  "Size doesn't matter, okay? OKAY???",
   'Use media queries to make site responsive 📏',
-  "Don't forget to fill out the study group survey! ✍🏽"
+  'You attempted the simple layouts 📰',
+  'Fluid = %',
+  'Elastic = EM & REM',
+  'Content Decisions = Media Queries',
+  "Don't forget to add a meta tag for the viewport 👀",
+  'Flexbox is MAGIC! 🪄'
 ];
 /*
 const weekOnePhrases = [
@@ -896,4 +897,39 @@ const week3Phrases = [
 //   'The Box Model has four properties 📦',
 //   'We all float down here! 🎈',
 //   'You survive 15 minutes of PAIN ⚡'
+// ];
+
+// JAN 27 2022
+// const weeklyPhrases = [
+//   'You submitted your HTML homework to Glitch',
+//   'Alumni Twitter Space this Friday 1/28 @ 6pm EST 🎓',
+//   "You're keeping up with Anki 🗃️",
+//   'Get some sleep! 💤',
+//   'You responded in a discord message thread 🧵',
+//   'Use keybr to increase typing speed! ⌨️',
+//   'Go deep, NOT wide! ↕️',
+//   'The Golden Rule 👑👑👑',
+//   'What is the internet? 💻 🖥️',
+//   'CSS is about <em>style</em> 💅🏿',
+//   'CSS declarations go inside curly braces {}',
+//   'CSS is read from top to bottom (cascade)',
+//   'Use a separate CSS file and link in your <head> ',
+//   "Don't know? Go to the MDN!",
+//   'parent > child to target direct descendents 👶🏽',
+//   'Only one #ID with the same value per document!',
+//   '.class is for multiple elements',
+//   `Syntax:
+//      Spelling and Grammar rules`,
+//   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   'Resetting the Forgetting Curve 📉',
+//   '#specificity .matters',
+//   'Someone figures out the specificity before you even start',
+//   'You finished Learning How to Learn on Coursera 🧠',
+//   'You practiced active recall and space repetition ⏳',
+//   'The Box Model has four properties 📦',
+//   'We all float down here! 🎈',
+//   'You survive 15 minutes of PAIN ⚡',
+//   "Size doesn't matter, okay? OKAY???",
+//   'Use media queries to make site responsive 📏',
+//   "Don't forget to fill out the study group survey! ✍🏽"
 // ];
