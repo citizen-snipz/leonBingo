@@ -5,7 +5,7 @@ const weeklyPhrases = [
   'Make your work better 🏆',
   "You've already started using the SHEEEEEET",
   'Coding challenges start next week!',
-  'Get a paid client by March 29th',
+  'Get a paid client by March 29th 🤑',
   'You completed all the layouts',
   '💩 just got real',
   'DIG DEEP!',
