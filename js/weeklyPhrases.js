@@ -1,5 +1,6 @@
 const weeklyPhrases = [
   'You submitted your Study Community Survey',
+  'Half hard work, half believing you can do it',
   "You're taking care of yourself 🛀🏾",
   'Make your work better 🏆',
   "You've already started using the SHEEEEEET",
@@ -7,31 +8,32 @@ const weeklyPhrases = [
   'Get a paid client by March 29th 🤑',
   'You completed all the layouts',
   '💩 just got real',
-  "Who's going to carry the ⛵ and 🪵?",
   "You've had at least one coffee chat ☕",
-  'Progressive Enhancement',
-  'Follow up: Meet ➡️ Email ➡️ LinkedIn ➡️ Twitter',
   "You're keeping up with Anki 🗃️",
   'The Golden Rule 👑👑👑',
-  'CSS is about <em>style</em> 💅🏿',
-  'CSS is read from top to bottom (cascade)',
-  'Use a separate CSS file and link in your <head> ',
-  "Don't know? Go to the MDN!",
-  'parent > child to target direct descendents 👶🏽',
   'Only one #ID with the same value per document!',
   '.class is for multiple elements',
   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
   '#specificity .matters',
   'You practiced active recall and space repetition ⏳',
-  'The Box Model has four properties 📦',
-  'We all float down here! 🎈',
-  'Use media queries to make site responsive 📏',
-  'Fluid = %',
-  'Elastic = EM & REM',
-  'Content Decisions = Media Queries',
-  "Don't forget to add a meta tag for the viewport 👀",
-  'Flexbox is MAGIC! 🪄',
-  "Go deep on things that don't make sense 🤔"
+  'A computer will do what you tell it to do',
+  'Programming = writing instructions in a language a computer can understand',
+  'Binary Upload Boom (BUB) 👽',
+  `Syntax:
+  Spelling and Grammar rules`,
+  'A variable is a bucket 🪣',
+  'camelCase is a variable convention 🐫',
+  `You can store different data types in variables 
+  (let age = 25 )
+  `,
+  "Strings are text wrapped in quotes '🔤'",
+  'If statements are either true or false',
+  `Logical operators help you compare values
+      like x === 3`,
+  'Conditional syntax uses if, else if, and else statements 🕵️',
+  "Don't confuse assignment (=) and comparison (===)",
+  '|| is the OR operator',
+  'You code along in JavaScript 💻'
 ];
 /*
 const weekOnePhrases = [
@@ -1045,4 +1047,41 @@ const week3Phrases = [
 //   'Content Decisions = Media Queries',
 //   "Don't forget to add a meta tag for the viewport 👀",
 //   'Flexbox is MAGIC! 🪄'
+// ];
+
+// FEB 15 2022
+// const weeklyPhrases = [
+//   'You submitted your Study Community Survey',
+//   "You're taking care of yourself 🛀🏾",
+//   'Make your work better 🏆',
+//   "You've already started using the SHEEEEEET",
+//   'Coding challenges start after Thursday! 🧩',
+//   'Get a paid client by March 29th 🤑',
+//   'You completed all the layouts',
+//   '💩 just got real',
+//   "Who's going to carry the ⛵ and 🪵?",
+//   "You've had at least one coffee chat ☕",
+//   'Progressive Enhancement',
+//   'Follow up: Meet ➡️ Email ➡️ LinkedIn ➡️ Twitter',
+//   "You're keeping up with Anki 🗃️",
+//   'The Golden Rule 👑👑👑',
+//   'CSS is about <em>style</em> 💅🏿',
+//   'CSS is read from top to bottom (cascade)',
+//   'Use a separate CSS file and link in your <head> ',
+//   "Don't know? Go to the MDN!",
+//   'parent > child to target direct descendents 👶🏽',
+//   'Only one #ID with the same value per document!',
+//   '.class is for multiple elements',
+//   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   '#specificity .matters',
+//   'You practiced active recall and space repetition ⏳',
+//   'The Box Model has four properties 📦',
+//   'We all float down here! 🎈',
+//   'Use media queries to make site responsive 📏',
+//   'Fluid = %',
+//   'Elastic = EM & REM',
+//   'Content Decisions = Media Queries',
+//   "Don't forget to add a meta tag for the viewport 👀",
+//   'Flexbox is MAGIC! 🪄',
+//   "Go deep on things that don't make sense 🤔"
 // ];
