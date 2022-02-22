@@ -2,7 +2,6 @@ const weeklyPhrases = [
   'You submitted your Study Community Survey',
   'Half hard work, half believing you can do it',
   "You're taking care of yourself 🛀🏾",
-  'Make your work better 🏆',
   "You've already started using the SHEEEEEET",
   'Coding challenges start after Thursday! 🧩',
   'Get a paid client by March 29th 🤑',
@@ -11,10 +10,6 @@ const weeklyPhrases = [
   "You've had at least one coffee chat ☕",
   "You're keeping up with Anki 🗃️",
   'The Golden Rule 👑👑👑',
-  'Only one #ID with the same value per document!',
-  '.class is for multiple elements',
-  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
-  '#specificity .matters',
   'You practiced active recall and space repetition ⏳',
   'A computer will do what you tell it to do',
   'Programming = writing instructions in a language a computer can understand',
@@ -30,10 +25,15 @@ const weeklyPhrases = [
   'If statements are either true or false',
   `Logical operators help you compare values
       like x === 3`,
+  'Floating numbers have a decimal',
   'Conditional syntax uses if, else if, and else statements 🕵️',
   "Don't confuse assignment (=) and comparison (===)",
   '|| is the OR operator',
-  'You code along in JavaScript 💻'
+  'You code along in JavaScript 💻',
+  'Modulus %',
+  '== compares only value,  === compares value AND type',
+  '&& is the AND operator',
+  'Multiple conditions?    Use && or || '
 ];
 /*
 const weekOnePhrases = [
@@ -1084,4 +1084,43 @@ const week3Phrases = [
 //   "Don't forget to add a meta tag for the viewport 👀",
 //   'Flexbox is MAGIC! 🪄',
 //   "Go deep on things that don't make sense 🤔"
+// ];
+
+// FEB 17, 2022
+// const weeklyPhrases = [
+//   'You submitted your Study Community Survey',
+//   'Half hard work, half believing you can do it',
+//   "You're taking care of yourself 🛀🏾",
+//   'Make your work better 🏆',
+//   "You've already started using the SHEEEEEET",
+//   'Coding challenges start after Thursday! 🧩',
+//   'Get a paid client by March 29th 🤑',
+//   'You completed all the layouts',
+//   '💩 just got real',
+//   "You've had at least one coffee chat ☕",
+//   "You're keeping up with Anki 🗃️",
+//   'The Golden Rule 👑👑👑',
+//   'Only one #ID with the same value per document!',
+//   '.class is for multiple elements',
+//   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   '#specificity .matters',
+//   'You practiced active recall and space repetition ⏳',
+//   'A computer will do what you tell it to do',
+//   'Programming = writing instructions in a language a computer can understand',
+//   'Binary Upload Boom (BUB) 👽',
+//   `Syntax:
+//   Spelling and Grammar rules`,
+//   'A variable is a bucket 🪣',
+//   'camelCase is a variable convention 🐫',
+//   `You can store different data types in variables
+//   (let age = 25 )
+//   `,
+//   "Strings are text wrapped in quotes '🔤'",
+//   'If statements are either true or false',
+//   `Logical operators help you compare values
+//       like x === 3`,
+//   'Conditional syntax uses if, else if, and else statements 🕵️',
+//   "Don't confuse assignment (=) and comparison (===)",
+//   '|| is the OR operator',
+//   'You code along in JavaScript 💻'
 // ];
