@@ -40,5 +40,6 @@ const phraseBank = [
   'Leon gets spicy 🌶️',
   "We're going to finish early today",
   'You remembered to check in on Twitter',
-  "You're signed up for Leon's newsletter"
+  "You're signed up for Leon's newsletter",
+  "You're taking care of yourself 🛀🏾"
 ];

@@ -1,39 +1,26 @@
 const weeklyPhrases = [
-  'You submitted your Study Community Survey',
+  'Study Community networking March 8th',
+  'I am not a lawyer',
+  'I am not a tax professional',
+  'Freelancing helps you earn money and gain experience',
+  'Get rid of that boot camp stink',
+  'Pay yo taxes!',
+  'Build an online persona',
   'Half hard work, half believing you can do it',
-  "You're taking care of yourself 🛀🏾",
+  'Portfolio, LinkedIn, Twitter',
+  "If you're not a designer, use a template!",
+  'Host your portfolio on Netlify for free',
+  'Start close when finding clients',
   "You've already started using the SHEEEEEET",
-  'Coding challenges start after Thursday! 🧩',
+  'Pick a niche',
+  'Get a deposit',
+  'Upgrade your proposal after your first client',
+  'Leave room to get help',
+  'Contracts protect BOTH parties',
+  'Under promise, over deliver',
   'Get a paid client by March 29th 🤑',
-  'You completed all the layouts',
-  '💩 just got real',
   "You've had at least one coffee chat ☕",
-  "You're keeping up with Anki 🗃️",
-  'The Golden Rule 👑👑👑',
-  'You practiced active recall and space repetition ⏳',
-  'A computer will do what you tell it to do',
-  'Programming = writing instructions in a language a computer can understand',
-  'Binary Upload Boom (BUB) 👽',
-  `Syntax:
-  Spelling and Grammar rules`,
-  'A variable is a bucket 🪣',
-  'camelCase is a variable convention 🐫',
-  `You can store different data types in variables 
-  (let age = 25 )
-  `,
-  "Strings are text wrapped in quotes '🔤'",
-  'If statements are either true or false',
-  `Logical operators help you compare values
-      like x === 3`,
-  'Floating numbers have a decimal',
-  'Conditional syntax uses if, else if, and else statements 🕵️',
-  "Don't confuse assignment (=) and comparison (===)",
-  '|| is the OR operator',
-  'You code along in JavaScript 💻',
-  'Modulus %',
-  '== compares only value,  === compares value AND type',
-  '&& is the AND operator',
-  'Multiple conditions?    Use && or || '
+  "You're keeping up with Anki 🗃️"
 ];
 /*
 const weekOnePhrases = [
@@ -1124,3 +1111,44 @@ const week3Phrases = [
 //   '|| is the OR operator',
 //   'You code along in JavaScript 💻'
 // ];
+
+// feb 22 2022
+// const weeklyPhrases = [
+//   'You submitted your Study Community Survey',
+//   'Half hard work, half believing you can do it',
+//   "You're taking care of yourself 🛀🏾",
+//   "You've already started using the SHEEEEEET",
+//   'Coding challenges start after Thursday! 🧩',
+//   'Get a paid client by March 29th 🤑',
+//   'You completed all the layouts',
+//   '💩 just got real',
+//   "You've had at least one coffee chat ☕",
+//   "You're keeping up with Anki 🗃️",
+//   'The Golden Rule 👑👑👑',
+//   'You practiced active recall and space repetition ⏳',
+//   'A computer will do what you tell it to do',
+//   'Programming = writing instructions in a language a computer can understand',
+//   'Binary Upload Boom (BUB) 👽',
+//   `Syntax:
+//   Spelling and Grammar rules`,
+//   'A variable is a bucket 🪣',
+//   'camelCase is a variable convention 🐫',
+//   `You can store different data types in variables
+//   (let age = 25 )
+//   `,
+//   "Strings are text wrapped in quotes '🔤'",
+//   'If statements are either true or false',
+//   `Logical operators help you compare values
+//       like x === 3`,
+//   'Floating numbers have a decimal',
+//   'Conditional syntax uses if, else if, and else statements 🕵️',
+//   "Don't confuse assignment (=) and comparison (===)",
+//   '|| is the OR operator',
+//   'You code along in JavaScript 💻',
+//   'Modulus %',
+//   '== compares only value,  === compares value AND type',
+//   '&& is the AND operator',
+//   'Multiple conditions?    Use && or || '
+// ];
+
+// MAR 1 2022
