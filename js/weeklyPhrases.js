@@ -1,23 +1,41 @@
 const weeklyPhrases = [
+  'JavaScript should NOT make sense yet 🥔',
+  'You CAN and WILL do this! ✊',
+  'Leon will never ask you for money',
+  'Check out our stream team! 🎥',
+  'You sign up to join the stream team',
+  'Submit the best clip if you want to be fancy 📎',
   'Study Community networking March 8th',
-  'I am not a lawyer ⚖️',
-  'I am not a tax professional 🧮',
-  'Freelancing helps you earn money and gain experience 🏦',
-  'Get rid of that boot camp stink 🦨',
-  'Pay yo taxes! 💰',
-  'Build an online persona 🥸',
-  'Portfolio, LinkedIn, Twitter',
-  "If you're not a designer, use a template! 🖼️",
-  'Host your portfolio on Netlify for free',
-  'Start close when finding clients 👪',
-  "You've already started using the SHEEEEEET",
-  'Pick a niche',
-  'Get a deposit 📩',
-  'Upgrade your proposal after your first client 📝',
-  'Leave room to get help',
-  'Contracts protect BOTH parties 🤝🏾',
-  'Under promise, over deliver 📦',
-  'Get a paid client by March 29th 🤑',
+  'Congrats on the best clip, Nikolaus#1985! 🏆',
+  'The Golden Rule: Seperation of Concerns 👑',
+  'Only one #ID with the same value per document!',
+  '.class is for multiple elements',
+  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+  '#specificity .matters',
+  'A computer will do what you tell it to do',
+  'Programming = writing instructions in a language a computer can understand',
+  'Binary Upload Boom (BUB) 👽',
+  'Functions are reusuable sets of instructions',
+  'Functions are the building blocks of a program 🚧',
+  `Syntax:
+  Spelling and Grammar rules`,
+  'A variable is a bucket 🪣',
+  'camelCase is a variable convention 🐫',
+  `You can store different data types in variables
+  (let age = 25 )
+  `,
+  "Strings are text wrapped in quotes '🔤'",
+  'If statements are either true or false',
+  `Logical operators help you compare values
+      like x === 3`,
+  'Floating numbers have a decimal',
+  'Conditional syntax uses if, else if, and else statements 🕵️',
+  "Don't confuse assignment (=) and comparison (===)",
+  '|| is the OR operator',
+  'You code along in JavaScript 💻',
+  '== compares only value,  === compares value AND type',
+  '&& is the AND operator',
+  'Multiple conditions?    Use && or || ',
   "You've had at least one coffee chat ☕",
   "You're keeping up with Anki 🗃️"
 ];
@@ -1151,3 +1169,28 @@ const week3Phrases = [
 // ];
 
 // MAR 1 2022
+// const weeklyPhrases = [
+//   'Study Community networking March 8th',
+//   'I am not a lawyer ⚖️',
+//   'I am not a tax professional 🧮',
+//   'Freelancing helps you earn money and gain experience 🏦',
+//   'Get rid of that boot camp stink 🦨',
+//   'Pay yo taxes! 💰',
+//   'Build an online persona 🥸',
+//   'Portfolio, LinkedIn, Twitter',
+//   "If you're not a designer, use a template! 🖼️",
+//   'Host your portfolio on Netlify for free',
+//   'Start close when finding clients 👪',
+//   "You've already started using the SHEEEEEET",
+//   'Pick a niche',
+//   'Get a deposit 📩',
+//   'Upgrade your proposal after your first client 📝',
+//   'Leave room to get help',
+//   'Contracts protect BOTH parties 🤝🏾',
+//   'Under promise, over deliver 📦',
+//   'Get a paid client by March 29th 🤑',
+//   "You've had at least one coffee chat ☕",
+//   "You're keeping up with Anki 🗃️"
+// ];
+
+// MAR 3 2022
