@@ -1,22 +1,15 @@
 const weeklyPhrases = [
+  'You submitted your drafts and tasks in the form 📮',
+  "You've already started using the SHEEEEEET",
+  'Daily coding challenges starting! 🧩',
+  'Get a paid client by March 31st 🤑',
   'JavaScript should NOT make sense yet 🥔',
-  'You CAN and WILL do this! ✊',
-  'Leon will never ask you for money',
-  'Check out our stream team! 🎥',
-  'You sign up to join the stream team',
+  'functions are the building blocks of a program 🧱',
+  'functions can take parameters and pass arguments',
   'Submit the best clip if you want to be fancy 📎',
-  'Study Community networking March 8th',
-  'Congrats on the best clip, Nikolaus#1985! 🏆',
-  'The Golden Rule: Seperation of Concerns 👑',
-  'Only one #ID with the same value per document!',
-  '.class is for multiple elements',
-  'Someone preemptively types "organization" in the chat 👩🏽‍💻',
-  '#specificity .matters',
   'A computer will do what you tell it to do',
   'Programming = writing instructions in a language a computer can understand',
-  'Binary Upload Boom (BUB) 👽',
   'Functions are reusuable sets of instructions',
-  'Functions are the building blocks of a program 🚧',
   `Syntax:
   Spelling and Grammar rules`,
   'A variable is a bucket 🪣',
@@ -24,11 +17,7 @@ const weeklyPhrases = [
   `You can store different data types in variables
   (let age = 25 )
   `,
-  "Strings are text wrapped in quotes '🔤'",
   'If statements are either true or false',
-  `Logical operators help you compare values
-      like x === 3`,
-  'Floating numbers have a decimal',
   'Conditional syntax uses if, else if, and else statements 🕵️',
   "Don't confuse assignment (=) and comparison (===)",
   '|| is the OR operator',
@@ -37,7 +26,15 @@ const weeklyPhrases = [
   '&& is the AND operator',
   'Multiple conditions?    Use && or || ',
   "You've had at least one coffee chat ☕",
-  "You're keeping up with Anki 🗃️"
+  "You're keeping up with Anki 🗃️",
+  'Loops repeat an action some number of times ➿',
+  'for, while, and do while are the main types of loops',
+  'Arrays are toasters 🍞',
+  'Arrays have a zero-based index 0️⃣,1️⃣,2️⃣',
+  'Arrays are a way to stored ordered collections',
+  'Array elements can be of any type',
+  'You can access and update elements in an array by their index position',
+  'Arrays have lots of useful methods built in! 🔧'
 ];
 /*
 const weekOnePhrases = [
@@ -1194,3 +1191,46 @@ const week3Phrases = [
 // ];
 
 // MAR 3 2022
+// const weeklyPhrases = [
+//   'JavaScript should NOT make sense yet 🥔',
+//   'You CAN and WILL do this! ✊',
+//   'Leon will never ask you for money',
+//   'Check out our stream team! 🎥',
+//   'You sign up to join the stream team',
+//   'Submit the best clip if you want to be fancy 📎',
+//   'Study Community networking March 8th',
+//   'Congrats on the best clip, Nikolaus#1985! 🏆',
+//   'The Golden Rule: Seperation of Concerns 👑',
+//   'Only one #ID with the same value per document!',
+//   '.class is for multiple elements',
+//   'Someone preemptively types "organization" in the chat 👩🏽‍💻',
+//   '#specificity .matters',
+//   'A computer will do what you tell it to do',
+//   'Programming = writing instructions in a language a computer can understand',
+//   'Binary Upload Boom (BUB) 👽',
+//   'Functions are reusuable sets of instructions',
+//   'Functions are the building blocks of a program 🚧',
+//   `Syntax:
+//   Spelling and Grammar rules`,
+//   'A variable is a bucket 🪣',
+//   'camelCase is a variable convention 🐫',
+//   `You can store different data types in variables
+//   (let age = 25 )
+//   `,
+//   "Strings are text wrapped in quotes '🔤'",
+//   'If statements are either true or false',
+//   `Logical operators help you compare values
+//       like x === 3`,
+//   'Floating numbers have a decimal',
+//   'Conditional syntax uses if, else if, and else statements 🕵️',
+//   "Don't confuse assignment (=) and comparison (===)",
+//   '|| is the OR operator',
+//   'You code along in JavaScript 💻',
+//   '== compares only value,  === compares value AND type',
+//   '&& is the AND operator',
+//   'Multiple conditions?    Use && or || ',
+//   "You've had at least one coffee chat ☕",
+//   "You're keeping up with Anki 🗃️"
+// ];
+
+// MAR 15 2022
