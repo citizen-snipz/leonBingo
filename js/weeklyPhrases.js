@@ -1,9 +1,11 @@
 const weeklyPhrases = [
+  'You volunteered your portfolio or resume for live review',
+  'Turn it up!',
+  'Beware the Trough of Sorrow',
   'You submitted your drafts and tasks in the form 📮',
   "You've already started using the SHEEEEEET",
   'Daily coding challenges starting! 🧩',
   'Get a paid client by March 31st 🤑',
-  'JavaScript should NOT make sense yet 🥔',
   'functions are the building blocks of a program 🧱',
   'functions can take parameters and pass arguments',
   'Submit the best clip if you want to be fancy 📎',
@@ -13,10 +15,6 @@ const weeklyPhrases = [
   `Syntax:
   Spelling and Grammar rules`,
   'A variable is a bucket 🪣',
-  'camelCase is a variable convention 🐫',
-  `You can store different data types in variables
-  (let age = 25 )
-  `,
   'If statements are either true or false',
   'Conditional syntax uses if, else if, and else statements 🕵️',
   "Don't confuse assignment (=) and comparison (===)",
@@ -34,7 +32,15 @@ const weeklyPhrases = [
   'Arrays are a way to stored ordered collections',
   'Array elements can be of any type',
   'You can access and update elements in an array by their index position',
-  'Arrays have lots of useful methods built in! 🔧'
+  'Arrays have lots of useful methods built in! 🔧',
+  "Objects store 'keyed' collections",
+  'JS Objects have properties (attributes) and methods (behaviors)',
+  'Constructors are like factories 🏭',
+  'A prototype is another object used as a fallback source of properties',
+  'Classes are like templates for objects!',
+  'API = Application Programming Interface',
+  'An API is a simple interface for some complex action',
+  'Leon tries to make fetch happen 👚'
 ];
 /*
 const weekOnePhrases = [
@@ -1234,3 +1240,41 @@ const week3Phrases = [
 // ];
 
 // MAR 15 2022
+// const weeklyPhrases = [
+//   'You submitted your drafts and tasks in the form 📮',
+//   "You've already started using the SHEEEEEET",
+//   'Daily coding challenges starting! 🧩',
+//   'Get a paid client by March 31st 🤑',
+//   'JavaScript should NOT make sense yet 🥔',
+//   'functions are the building blocks of a program 🧱',
+//   'functions can take parameters and pass arguments',
+//   'Submit the best clip if you want to be fancy 📎',
+//   'A computer will do what you tell it to do',
+//   'Programming = writing instructions in a language a computer can understand',
+//   'Functions are reusuable sets of instructions',
+//   `Syntax:
+//   Spelling and Grammar rules`,
+//   'A variable is a bucket 🪣',
+//   'camelCase is a variable convention 🐫',
+//   `You can store different data types in variables
+//   (let age = 25 )
+//   `,
+//   'If statements are either true or false',
+//   'Conditional syntax uses if, else if, and else statements 🕵️',
+//   "Don't confuse assignment (=) and comparison (===)",
+//   '|| is the OR operator',
+//   'You code along in JavaScript 💻',
+//   '== compares only value,  === compares value AND type',
+//   '&& is the AND operator',
+//   'Multiple conditions?    Use && or || ',
+//   "You've had at least one coffee chat ☕",
+//   "You're keeping up with Anki 🗃️",
+//   'Loops repeat an action some number of times ➿',
+//   'for, while, and do while are the main types of loops',
+//   'Arrays are toasters 🍞',
+//   'Arrays have a zero-based index 0️⃣,1️⃣,2️⃣',
+//   'Arrays are a way to stored ordered collections',
+//   'Array elements can be of any type',
+//   'You can access and update elements in an array by their index position',
+//   'Arrays have lots of useful methods built in! 🔧'
+// ];
