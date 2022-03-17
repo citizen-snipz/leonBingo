@@ -1,7 +1,7 @@
 const weeklyPhrases = [
-  'You volunteered your portfolio or resume for live review',
+  'You volunteered your portfolio or resume for live review ✋',
   'Turn it up!',
-  'Beware the Trough of Sorrow',
+  'Beware the Trough of Sorrow 📉',
   'You submitted your drafts and tasks in the form 📮',
   "You've already started using the SHEEEEEET",
   'Daily coding challenges starting! 🧩',
@@ -36,11 +36,12 @@ const weeklyPhrases = [
   "Objects store 'keyed' collections",
   'JS Objects have properties (attributes) and methods (behaviors)',
   'Constructors are like factories 🏭',
-  'A prototype is another object used as a fallback source of properties',
+  'A prototype is another object used as a fallback source of properties 💾',
   'Classes are like templates for objects!',
   'API = Application Programming Interface',
   'An API is a simple interface for some complex action',
-  'Leon tries to make fetch happen 👚'
+  'Leon tries to make fetch happen 👚',
+  "Grandma's car is now YOUR car! 🚗"
 ];
 /*
 const weekOnePhrases = [
