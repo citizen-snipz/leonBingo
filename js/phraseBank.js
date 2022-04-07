@@ -42,5 +42,6 @@ const phraseBank = [
   'You remembered to check in on Twitter',
   "You're signed up for Leon's newsletter",
   "You're taking care of yourself 🛀🏾",
-  'We get raided by another streamer'
+  'We get raided by another streamer',
+  "You're keeping up with your Anki deck 🧠"
 ];
