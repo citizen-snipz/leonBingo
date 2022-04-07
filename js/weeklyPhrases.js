@@ -1,7 +1,7 @@
 const weeklyPhrases = [
   'No networking until May!',
   'Client deadline May 3rd',
-  'firsttimersonly.com',
+  'firsttimersonly for open source',
   'Merch! ',
   'Beware the Trough of Sorrow 📉',
   'BEST WEEK EVER!!! 🎉🎉🎉',
