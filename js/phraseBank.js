@@ -24,7 +24,7 @@ const phraseBank = [
   'Machi/Simba borks in the background 🐕',
   'Leon transforms into Little Leon',
   "It looks like we're going to run a little late",
-  'Leon forgets and then remembers that bingo exists',
+  //'Leon forgets and then remembers that bingo exists',
   'You messed up',
   // "Leon is amused by bootieliquor's name",
   //"spend Jeff Bezos'/Andy's money! 💸",
