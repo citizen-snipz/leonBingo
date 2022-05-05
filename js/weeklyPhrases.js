@@ -1,11 +1,14 @@
-// APR 28 2022
+// MAY 5 2022
 const weeklyPhrases = [
-  'No networking until May!',
-  'Client deadline May 5th',
+  'GIT Bowl Monday @ 6:30pm EST',
+  'Networking next week!',
+  'Client deadline May 17th',
   'firsttimersonly for open source',
-  'Live Crafting Your Story Friday @ 6:30 pm EST',
-  'Office hours Sunday @ 1:00 pm EST 📞',
-  'Beware the Trough of Sorrow 📉',
+  'Fresh start ✨',
+  'You joined the 100Devs clan on Code Wars',
+  'BIG NEWS! 🗞️',
+  "Check out Mayanwolfe's streams",
+  "Catch Verolafox's stream Friday @ 11:00 am EST",
   'NERD FIGHT! 👊🏽',
   'serious Business Person in the house! 👔',
   'You code along in JavaScript 💻',
@@ -17,9 +20,14 @@ const weeklyPhrases = [
   'OOP makes it easier to read existing code and add new stuff',
   'Encapsulation = fusion of data and functionality into one object 💊',
   'Abstraction = hiding complex or unnecessary details 🥷🏼',
-  'Four Pillars of OOP',
+  'Inheritance = create new objects based on old ones',
+  'Polymorphism = a piece of code that automagically works with lots of differenct objs 🗝️',
+  'Polymorphism allows us to override a method in every child class so it will do what we want',
+  'Four Pillars of OOP 🏛️',
   'WHAT WAS THE REASON?!',
-  'You completed a kata on Codewars today ⚔️'
+  'You completed a kata on Codewars today ⚔️',
+  'You join an OOP group 🤝',
+  'Finish your professional checklist ✅'
 ];
 /*
 const weekOnePhrases = [
@@ -1510,5 +1518,29 @@ const week3Phrases = [
 //   'Use query parameters in APIs to return the correct data❓',
 //   'You built a project that uses an API 🏆',
 //   'APIs are like restaurant menus',
+//   'You completed a kata on Codewars today ⚔️'
+// ];
+
+// APR 28 2022
+// const weeklyPhrases = [
+//   'No networking until May!',
+//   'Client deadline May 5th',
+//   'firsttimersonly for open source',
+//   'Live Crafting Your Story Friday @ 6:30 pm EST',
+//   'Office hours Sunday @ 1:00 pm EST 📞',
+//   'Beware the Trough of Sorrow 📉',
+//   'NERD FIGHT! 👊🏽',
+//   'serious Business Person in the house! 👔',
+//   'You code along in JavaScript 💻',
+//   "Objects store 'keyed' collections 🔐",
+//   'JS Objects have properties (attributes) and methods (behaviors)',
+//   'Constructors are like factories 🏭',
+//   'A prototype is another object used as a fallback source of properties 💾',
+//   'Classes are like templates for objects!',
+//   'OOP makes it easier to read existing code and add new stuff',
+//   'Encapsulation = fusion of data and functionality into one object 💊',
+//   'Abstraction = hiding complex or unnecessary details 🥷🏼',
+//   'Four Pillars of OOP',
+//   'WHAT WAS THE REASON?!',
 //   'You completed a kata on Codewars today ⚔️'
 // ];
