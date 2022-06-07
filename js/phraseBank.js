@@ -4,7 +4,7 @@
  */
 
 const phraseBank = [
-  // "Leon says octothorpe",
+  'Leon says octothorpe',
   "Leon says 'automagically' \r✨✨✨✨",
   //'10 people finish a challenge before the timer goes off ⏲️',
   'Leon mentions the OnlyFans page 🔞 ',
@@ -12,11 +12,11 @@ const phraseBank = [
   'Leon tells us what he is drinking today',
   'Hydrate! 🚰',
   'Posture Check!',
-  //"Don't call yourself a junior dev 🙅🏿",
+  "Don't call yourself a junior dev 🙅🏿",
   'One job please! 💰',
   // "community goal met 🎉",
   'Bob gets mentioned by Leon or slides',
-  //'Dylan spits hot fire 🔥🔥',
+  'Dylan spits hot fire 🔥🔥',
   //'The Bachelor 🌹',
   //'Bring It On 📣',
   'Blame the nuns!',
@@ -33,7 +33,7 @@ const phraseBank = [
   'We reach a level 5 hype train! 🚂',
   'Party Mode Activated! 🎊',
   // "Doggo Cam activated 🐶",
-  // "You're a full stack dev now! 🏆",
+  "You're a full stack dev now! 🏆",
   'Someone redeems soundboard alert 🔊',
   'First tryyy! 👍🏿',
   "We don't get got, we go get 😎",

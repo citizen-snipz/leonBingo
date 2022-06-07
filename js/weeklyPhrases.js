@@ -1,33 +1,22 @@
-// MAY 5 2022
+// JUN 7 2022
 const weeklyPhrases = [
-  'GIT Bowl Monday @ 6:30pm EST',
-  'Networking next week!',
-  'Client deadline May 17th',
-  'firsttimersonly for open source',
-  'Fresh start ✨',
-  'You joined the 100Devs clan on Code Wars',
-  'BIG NEWS! 🗞️',
-  "Check out Mayanwolfe's streams",
-  "Catch Verolafox's stream Friday @ 11:00 am EST",
-  'NERD FIGHT! 👊🏽',
-  'serious Business Person in the house! 👔',
-  'You code along in JavaScript 💻',
-  "Objects store 'keyed' collections 🔐",
-  'JS Objects have properties (attributes) and methods (behaviors)',
-  'Constructors are like factories 🏭',
-  'A prototype is another object used as a fallback source of properties 💾',
-  'Classes are like templates for objects!',
-  'OOP makes it easier to read existing code and add new stuff',
-  'Encapsulation = fusion of data and functionality into one object 💊',
-  'Abstraction = hiding complex or unnecessary details 🥷🏼',
-  'Inheritance = create new objects based on old ones',
-  'Polymorphism = a piece of code that automagically works with lots of differenct objs 🗝️',
-  'Polymorphism allows us to override a method in every child class so it will do what we want',
-  'Four Pillars of OOP 🏛️',
-  'WHAT WAS THE REASON?!',
-  'You completed a kata on Codewars today ⚔️',
-  'You join an OOP group 🤝',
-  'Finish your professional checklist ✅'
+  'You submitted your API homework',
+  "You got through Zell Liew's tutorial",
+  'Summer break',
+  "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine ⚙️",
+  'Get your custom modules at NPM 📦',
+  'You build your very own simple Node server! 🛠️',
+  'Clean up your back end! 🧼',
+  '💩 CRUD: Create(POST), Read(GET), Update(PUT), Delete(DELETE)',
+  'Express is a framework for Node.js 🖼️',
+  'How does the internet work? 🌐',
+  'The developer creates the API on the server and allows the clinet to talk to it. 💭',
+  'MongoDB stores your collections 🗄️',
+  'EJS is a simple templating language that lets you generate HTML markup with plain JavaScript',
+  'Push to Heroku',
+  'Complete your professional links 🔗',
+  'You create a Mongo Atlas account',
+  'Start prepping the BANK! 🏦'
 ];
 /*
 const weekOnePhrases = [
@@ -1543,4 +1532,36 @@ const week3Phrases = [
 //   'Four Pillars of OOP',
 //   'WHAT WAS THE REASON?!',
 //   'You completed a kata on Codewars today ⚔️'
+// ];
+
+// MAY 5 2022
+// const weeklyPhrases = [
+//   'GIT Bowl Monday @ 6:30pm EST',
+//   'Networking next week!',
+//   'Client deadline May 17th',
+//   'firsttimersonly for open source',
+//   'Fresh start ✨',
+//   'You joined the 100Devs clan on Code Wars',
+//   'BIG NEWS! 🗞️',
+//   "Check out Mayanwolfe's streams",
+//   "Catch Verolafox's stream Friday @ 11:00 am EST",
+//   'NERD FIGHT! 👊🏽',
+//   'serious Business Person in the house! 👔',
+//   'You code along in JavaScript 💻',
+//   "Objects store 'keyed' collections 🔐",
+//   'JS Objects have properties (attributes) and methods (behaviors)',
+//   'Constructors are like factories 🏭',
+//   'A prototype is another object used as a fallback source of properties 💾',
+//   'Classes are like templates for objects!',
+//   'OOP makes it easier to read existing code and add new stuff',
+//   'Encapsulation = fusion of data and functionality into one object 💊',
+//   'Abstraction = hiding complex or unnecessary details 🥷🏼',
+//   'Inheritance = create new objects based on old ones',
+//   'Polymorphism = a piece of code that automagically works with lots of differenct objs 🗝️',
+//   'Polymorphism allows us to override a method in every child class so it will do what we want',
+//   'Four Pillars of OOP 🏛️',
+//   'WHAT WAS THE REASON?!',
+//   'You completed a kata on Codewars today ⚔️',
+//   'You join an OOP group 🤝',
+//   'Finish your professional checklist ✅'
 // ];
